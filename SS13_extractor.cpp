@@ -5,6 +5,7 @@
 #include <list>
 #include <fstream>
 
+//struct that store infomation from a string
 struct obj_info
 {
     std::string position;
@@ -12,6 +13,7 @@ struct obj_info
     std::string desc;
 };
 
+//list with info that will be written in file
 std::list<obj_info> obj_names;
 
 //function declaration
@@ -28,26 +30,33 @@ int main()
 //get all the files
 void search_directory(const std::filesystem::path& path)
 {
+    //iterate all the files under directory
     for (auto& p : std::filesystem::directory_iterator(path))
     {
+        //if iterator points to a directory
         if (std::filesystem::is_directory(p))
         {
+            //call itself to find files
             search_directory(p);
         }
         else
         {
+            //process the information in the file
             extract_from_file(p);
+
+            //write the info to the file
             write_into_file(p.path().string());
         }
     }
 }
 
+//process the information in the file
 void extract_from_file(const std::filesystem::path& path)
 {
-    obj_info temp;
-    std::string input_line;
-    std::string line;
-    bool has_content = false;
+    obj_info temp;                  //temporary struct for storing information
+    std::string input_line;         //buffer stored raw string from file
+    std::string line;               //buffer stored processed string from raw string
+    bool has_content = false;       //flags that if string has any useful information to store
     std::ifstream in(path);
     while (std::getline(in, input_line))
     {
@@ -103,6 +112,7 @@ void extract_from_file(const std::filesystem::path& path)
 
 void write_into_file(std::string path)
 {
+    //change the output file name
     auto index_of_dot = path.find_last_of(".");
     path.insert(index_of_dot, "_extracted");
 
@@ -110,6 +120,7 @@ void write_into_file(std::string path)
     path.erase(path.find_first_of("/") + 1, 4);
     std::cout << "Erased path is : " << path << std::endl;
 
+    //replaced with extracted
     path.insert(path.find_first_of("/") + 1, "extracted");
     std::cout << "Write in path is : " << path << std::endl;
 
@@ -117,7 +128,10 @@ void write_into_file(std::string path)
 
     std::filesystem::create_directories(directories);
 
+    //the file that contains information
     std::ofstream out( std::filesystem::path{ path } );
+
+    //iterate objects from list
     for (auto& obj : obj_names)
     {
         std::cout << "obj content : " << obj.position << ", " << obj.name << ", " << obj.desc << std::endl;
