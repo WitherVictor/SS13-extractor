@@ -5,6 +5,9 @@
 #include <list>
 #include <fstream>
 
+constexpr auto output_log = "log.txt";
+std::ofstream log_file {output_log};
+
 //struct that store infomation from a string
 struct obj_info
 {
@@ -18,7 +21,7 @@ std::list<obj_info> obj_names;
 
 //function declaration
 void search_directory(const std::filesystem::path& path);
-void write_into_file(std::string path);
+void write_into_file(const std::filesystem::path& path);
 void extract_from_file(const std::filesystem::path& path);
 
 //main function
@@ -42,6 +45,8 @@ void search_directory(const std::filesystem::path& path)
         else
         {
             //process the information in the file
+            log_file << "Extracting file : " << p.path() << std::endl;
+
             extract_from_file(p);
 
             //write the info to the file
@@ -60,47 +65,57 @@ void extract_from_file(const std::filesystem::path& path)
     std::ifstream in(path);
     while (std::getline(in, input_line))
     {
-        std::cout << "Get String : " << input_line << std::endl;
+        log_file << "Get String : " << input_line << std::endl;
 
         if (input_line.find_first_not_of('\t') != std::string::npos)
         {
-            std::cout << "Non-Space position : " << input_line.find_first_not_of('\t') << std::endl;
+            log_file << "Non-Space position : " << input_line.find_first_not_of('\t') << std::endl;
 
             line = input_line.substr(input_line.find_first_not_of('\t'));
             
-            std::cout << "Modified String : " << line << std::endl;
+            log_file << "Modified String : " << line << std::endl;
         }
         else
         {
-            std::cout << "String is filled with space" << std::endl << "\n";
-
+            log_file << "String is filled with space" << std::endl << "\n";
             continue;
         }
 
-        if (*line.begin() == '/' && *(line.begin() + 1) != '/')
+        if (*line.begin() == '/')
         {
-            std::cout << "String has '/'" << std::endl << "\n";
+            log_file << "String has '/'" << std::endl << "\n";
+            if (*(line.begin() + 1) == '/')
+            {
+                log_file << "String with '//' and ignored" << std::endl << "\n";
+                continue;
+            }
+            else if (*(line.begin() + 1) == '*')
+            {
+                log_file << "String has '/*'" << std::endl << "\n";
+                continue;
+            }
 
             temp.position = line;
             has_content = true;
         }
+
         if (line.starts_with("name"))
         {
-            std::cout << "String has name" << std::endl << "\n";
+            log_file << "String has name" << std::endl << "\n";
 
-            temp.name = line.substr(line.find_first_of("\""), line.find_last_of("\""));
+            temp.name = line.substr(line.find_first_of("=") + 2);
             has_content = true;
         }
         if (line.starts_with("desc"))
         {
-            std::cout << "String has desc" << std::endl << "\n";
+            log_file << "String has desc" << std::endl << "\n";
 
-            temp.desc = line.substr(line.find_first_of("\""), line.find_last_of("\""));
+            temp.desc = line.substr(line.find_first_of("=") + 2);
             has_content = true;
         }
         if (has_content == false)
         {
-            std::cout << "String has no content" << std::endl << "\n";
+            log_file << "String has no content" << std::endl << "\n";
             temp = {};
             continue;
         }
@@ -110,47 +125,81 @@ void extract_from_file(const std::filesystem::path& path)
     }
 }
 
-void write_into_file(std::string path)
+void write_into_file(const std::filesystem::path& raw_path)
 {
+    std::string path = raw_path.string();
+
+    log_file << "The file that wriiten in : " << path << std::endl;
+
     //change the output file name
-    auto index_of_dot = path.find_last_of(".");
-    path.insert(index_of_dot, "_extracted");
+    if (path.find_last_of(".") != std::string::npos && path.substr(path.find_last_of("."), 3) == ".dm")
+    {
+        auto index_of_dot = path.find_last_of(".");
+        path.insert(index_of_dot, "_extracted");
+    }
 
     //erase directory "code"
-    path.erase(path.find_first_of("/") + 1, 4);
-    std::cout << "Erased path is : " << path << std::endl;
+    path.erase(path.find_first_of("code"), 4);
+    log_file << "Erased path is : " << path << std::endl;
 
     //replaced with extracted
     path.insert(path.find_first_of("/") + 1, "extracted");
-    std::cout << "Write in path is : " << path << std::endl;
+    log_file << "Write in path is : " << path << std::endl;
+
+    //new line
+    log_file << std::endl;
+
+    while (path.find_last_of('\\') != std::string::npos)
+    {
+        int pos = path.find_last_of('\\');
+        path.erase(pos, 1);
+        path.insert(pos, "/");
+    }
 
     std::filesystem::path directories = {path.substr(0, path.find_last_of("/"))};
+    log_file << "Directories is : " << directories << std::endl;
 
     std::filesystem::create_directories(directories);
+    log_file << "Try to create directory : " << directories << std::endl;
 
     //the file that contains information
     std::ofstream out( std::filesystem::path{ path } );
+    log_file << "Output file is : " << path << std::endl;
 
     //iterate objects from list
     for (auto& obj : obj_names)
     {
-        std::cout << "obj content : " << obj.position << ", " << obj.name << ", " << obj.desc << std::endl;
+        log_file << "obj content : " << obj.position << ", " << obj.name << ", " << obj.desc << std::endl;
 
         if (obj.position != "")
         {
             out << obj.position << std::endl;
-            std::cout << "Written in position : " << obj.position << std::endl;
+            log_file << "Written in position : " << obj.position << std::endl;
         }
         if (obj.name != "")
         {
             out << "\t" << "name = " << obj.name << "\n";
-            std::cout << "Written in name = " << obj.name << std::endl;
+            log_file << "Written in name = " << obj.name << std::endl;
         }
         if (obj.desc != "")
         {
             out << "\t" << "desc = " << obj.desc << "\n";
-            std::cout << "Written in desc = " << obj.desc << std::endl;
+            log_file << "Written in desc = " << obj.desc << std::endl;
+        }
+        
+        if ( !(obj.position == "" && obj.name == "" && obj.desc == ""))
+        {
+            log_file << std::endl;
         }
     }
+
+    //close the file and check if it is empty
+    out.close();
+    if (std::filesystem::is_empty(std::filesystem::path{ path }))
+    {
+        log_file << "File is empty, removing file" << std::endl;
+        std::filesystem::remove(std::filesystem::path{ path });
+    }
+
     obj_names.clear();
 }
