@@ -1,0 +1,17 @@
+/obj/docking_port/mobile/arrivals
+	name = "arrivals shuttle"
+/obj/docking_port/mobile/arrivals/Initialize(mapload)
+/obj/docking_port/mobile/arrivals/register()
+/obj/docking_port/mobile/arrivals/LateInitialize()
+/obj/docking_port/mobile/arrivals/check()
+/obj/docking_port/mobile/arrivals/proc/CheckTurfsPressure()
+/obj/docking_port/mobile/arrivals/proc/PersonCheck()
+/obj/docking_port/mobile/arrivals/proc/NukeDiskCheck()
+/obj/docking_port/mobile/arrivals/proc/SendToStation()
+/obj/docking_port/mobile/arrivals/initiate_docking(obj/docking_port/stationary/S1, force=FALSE)
+/obj/docking_port/mobile/arrivals/check_effects()
+/obj/docking_port/mobile/arrivals/canDock(obj/docking_port/stationary/S)
+/obj/docking_port/mobile/arrivals/proc/Launch(pickingup)
+/obj/docking_port/mobile/arrivals/proc/RequireUndocked(mob/user)
+/obj/docking_port/mobile/arrivals/proc/QueueAnnounce(mob, rank)
+/obj/docking_port/mobile/arrivals/vv_edit_var(var_name, var_value)

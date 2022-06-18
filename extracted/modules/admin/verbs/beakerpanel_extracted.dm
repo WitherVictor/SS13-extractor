@@ -1,0 +1,6 @@
+/proc/reagentsforbeakers()
+/proc/beakersforbeakers()
+/datum/admins/proc/beaker_panel_act(list/href_list)
+/datum/admins/proc/beaker_panel_prep_assembly(obj/item/assembly/towrap, grenade)
+/datum/admins/proc/beaker_panel_create_container(list/containerdata, location)
+/datum/admins/proc/beaker_panel()

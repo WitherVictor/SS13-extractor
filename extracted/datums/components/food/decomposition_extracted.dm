@@ -1,0 +1,10 @@
+/datum/component/decomposition
+/datum/component/decomposition/Initialize(mapload, decomp_req_handle, decomp_flags = NONE, decomp_result, ant_attracting = TRUE)
+/datum/component/decomposition/UnregisterFromParent()
+/datum/component/decomposition/proc/handle_movement()
+/datum/component/decomposition/Destroy()
+/datum/component/decomposition/proc/remove_timer()
+/datum/component/decomposition/proc/dropped()
+/datum/component/decomposition/proc/picked_up()
+/datum/component/decomposition/proc/decompose()
+/datum/component/decomposition/proc/examine(datum/source, mob/user, list/examine_list)

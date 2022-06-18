@@ -1,0 +1,14 @@
+/datum/objective/abductee
+/datum/objective/abductee/random
+/datum/objective/abductee/random/New()
+/datum/objective/abductee/steal
+/datum/objective/abductee/steal/New()
+/datum/objective/abductee/paint
+/datum/objective/abductee/paint/New()
+/datum/objective/abductee/speech
+/datum/objective/abductee/speech/New()
+/datum/objective/abductee/capture
+/datum/objective/abductee/capture/New()
+/datum/objective/abductee/calling/New()
+/datum/objective/abductee/forbiddennumber
+/datum/objective/abductee/forbiddennumber/New()

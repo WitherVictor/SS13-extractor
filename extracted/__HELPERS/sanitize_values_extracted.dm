@@ -1,0 +1,8 @@
+/proc/sanitize_integer(number, min=0, max=1, default=0)
+/proc/sanitize_float(number, min=0, max=1, accuracy=1, default=0)
+/proc/sanitize_text(text, default="")
+/proc/sanitize_islist(value, default)
+/proc/sanitize_inlist(value, list/List, default)
+/proc/sanitize_gender(gender,neuter=0,plural=1, default="male")
+/proc/sanitize_hexcolor(color, desired_format = DEFAULT_HEX_COLOR_LEN, include_crunch = TRUE, default)
+/proc/sanitize_color(color)

@@ -1,0 +1,13 @@
+/datum/job_department
+/datum/job_department/proc/add_job(datum/job/job)
+/datum/job_department/assistant
+/datum/job_department/captain
+/datum/job_department/command
+/datum/job_department/security
+/datum/job_department/engineering
+/datum/job_department/medical
+/datum/job_department/science
+/datum/job_department/cargo
+/datum/job_department/service
+/datum/job_department/silicon
+/datum/job_department/undefined

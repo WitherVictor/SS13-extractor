@@ -1,0 +1,6 @@
+/datum/preferences/proc/randomise_appearance_prefs(randomize_flags = ALL)
+/datum/preferences/proc/apply_character_randomization_prefs(antag_override = FALSE)
+/datum/preferences/proc/hardcore_random_setup(mob/living/carbon/human/character)
+/datum/preferences/proc/select_hardcore_quirks()
+/datum/preferences/proc/get_highest_priority_job()
+/datum/preferences/proc/render_new_preview_appearance(mob/living/carbon/human/dummy/mannequin)

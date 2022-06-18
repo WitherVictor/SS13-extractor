@@ -1,0 +1,26 @@
+/proc/get_random_food()
+/obj/item/food/breadslice,
+/obj/item/food/cake,
+/obj/item/food/cakeslice,
+/obj/item/food/pie,
+/obj/item/food/pieslice,
+/obj/item/food/kebab,
+/obj/item/food/pizza,
+/obj/item/food/pizzaslice,
+/obj/item/food/salad,
+/obj/item/food/meat,
+/obj/item/food/meat/slab,
+/obj/item/food/soup,
+/obj/item/food/grown,
+/obj/item/food/grown/mushroom,
+/obj/item/food/deepfryholder,
+/obj/item/food/clothing,
+/obj/item/food/meat/slab/human/mutant,
+/obj/item/food/grown/ash_flora,
+/obj/item/food/grown/nettle,
+/obj/item/food/grown/shell
+/proc/get_random_drink()
+/obj/item/reagent_containers/food/drinks/soda_cans,
+/obj/item/reagent_containers/food/drinks/bottle
+/proc/ion_num() //! is at the start to prevent us from changing say modes via get_message_mode()
+/proc/random_nukecode()

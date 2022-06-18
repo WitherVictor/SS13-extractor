@@ -1,0 +1,8 @@
+/datum/admins/proc/stickyban(action,data)
+/datum/admins/proc/stickyban_gethtml(ckey)
+/datum/admins/proc/stickyban_show()
+/proc/sticky_banned_ckeys()
+/proc/get_stickyban_from_ckey(ckey)
+/proc/stickyban2list(ban, strictdb = TRUE)
+/proc/list2stickyban(list/ban)
+/client/proc/stickybanpanel()

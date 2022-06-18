@@ -1,0 +1,10 @@
+/datum/element/climbable
+/datum/element/climbable/Attach(datum/target, climb_time, climb_stun)
+/datum/element/climbable/Detach(datum/target)
+/datum/element/climbable/proc/on_examine(atom/source, mob/user, list/examine_texts)
+/datum/element/climbable/proc/can_climb(atom/source, mob/user)
+/datum/element/climbable/proc/attack_hand(atom/climbed_thing, mob/user)
+/datum/element/climbable/proc/climb_structure(atom/climbed_thing, mob/living/user, params)
+/datum/element/climbable/proc/do_climb(atom/climbed_thing, mob/living/user, params)
+/datum/element/climbable/proc/mousedrop_receive(atom/climbed_thing, atom/movable/dropped_atom, mob/user, params)
+/datum/element/climbable/proc/try_speedrun(datum/source, mob/bumpee)

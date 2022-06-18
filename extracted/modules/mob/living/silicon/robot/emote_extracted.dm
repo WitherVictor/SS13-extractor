@@ -1,0 +1,10 @@
+/datum/emote/silicon
+/datum/emote/silicon/boop
+/datum/emote/silicon/buzz
+/datum/emote/silicon/buzz2
+/datum/emote/silicon/chime
+/datum/emote/silicon/honk
+/datum/emote/silicon/ping
+/datum/emote/silicon/sad
+/datum/emote/silicon/warn
+/datum/emote/silicon/slowclap

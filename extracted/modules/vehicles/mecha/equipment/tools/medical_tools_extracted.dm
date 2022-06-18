@@ -1,0 +1,56 @@
+/obj/item/mecha_parts/mecha_equipment/medical
+/obj/item/mecha_parts/mecha_equipment/medical/Initialize(mapload)
+/obj/item/mecha_parts/mecha_equipment/medical/Destroy()
+/obj/item/mecha_parts/mecha_equipment/medical/can_attach(obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/medical/attach(obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/medical/process()
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/detach()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper
+	name = "mounted sleeper"
+	desc = "Equipment for medical exosuits. A mounted sleeper that stabilizes patients and can inject reagents in the exosuit's reserves."
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/Destroy()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/Exit(atom/movable/leaving, direction)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/action(mob/source, atom/atomtarget, list/modifiers)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/patient_insertion_check(mob/living/carbon/target, mob/user)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/go_out()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/detach()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/get_equip_info()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/Topic(href,href_list)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/get_patient_stats()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/get_patient_dam()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/get_patient_reagents()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/get_available_reagents()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/proc/inject_reagent(datum/reagent/R,obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/SG)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/update_equip_info()
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/container_resist_act(mob/living/user)
+/obj/item/mecha_parts/mecha_equipment/medical/sleeper/process(delta_time)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun
+	name = "exosuit syringe gun"
+	desc = "Equipment for medical exosuits. A chem synthesizer with syringe gun. Reagents inside are held in stasis, so no reactions will occur."
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/Initialize(mapload)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/Destroy()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/create_reagents(max_vol, flags)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/on_reagents_del(datum/reagents/reagents)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/detach()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/can_attach(obj/vehicle/sealed/mecha/medical/M)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/get_equip_info()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/action(mob/source, atom/target, list/modifiers)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/Topic(href,href_list)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/get_reagents_page()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/get_reagents_form()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/get_reagents_list()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/get_current_reagents()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/load_syringe(obj/item/reagent_containers/syringe/S, mob/user)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/analyze_reagents(atom/A, mob/user)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/add_known_reagent(r_id,r_name)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/update_equip_info()
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/proc/on_reagent_change(datum/reagents/holder, ...)
+/obj/item/mecha_parts/mecha_equipment/medical/syringe_gun/process(delta_time)
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam
+	name = "exosuit medical beamgun"
+	desc = "Equipment for medical exosuits. Generates a focused beam of medical nanites."
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/Initialize(mapload)
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/Destroy()
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/process(deltatime)
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/action(mob/source, atom/movable/target, list/modifiers)
+/obj/item/mecha_parts/mecha_equipment/medical/mechmedbeam/detach()

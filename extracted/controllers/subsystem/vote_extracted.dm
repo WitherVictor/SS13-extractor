@@ -1,0 +1,20 @@
+	name = "Vote"
+/datum/controller/subsystem/vote/fire()
+/datum/controller/subsystem/vote/proc/reset()
+/datum/controller/subsystem/vote/proc/get_result()
+/datum/controller/subsystem/vote/proc/announce_result()
+/datum/controller/subsystem/vote/proc/result()
+/datum/controller/subsystem/vote/proc/submit_vote(vote)
+/datum/controller/subsystem/vote/proc/initiate_vote(vote_type, initiator_key)
+/mob/verb/vote()
+/datum/controller/subsystem/vote/ui_state()
+/datum/controller/subsystem/vote/ui_interact(mob/user, datum/tgui/ui)
+/datum/controller/subsystem/vote/ui_data(mob/user)
+/datum/controller/subsystem/vote/ui_act(action, params)
+/datum/controller/subsystem/vote/proc/remove_action_buttons()
+/datum/controller/subsystem/vote/ui_close(mob/user)
+/datum/action/vote
+	name = "Vote!"
+/datum/action/vote/Trigger()
+/datum/action/vote/IsAvailable()
+/datum/action/vote/proc/remove_from_client()

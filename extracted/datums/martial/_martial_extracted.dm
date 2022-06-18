@@ -1,0 +1,13 @@
+/datum/martial_art
+/datum/martial_art/proc/help_act(mob/living/A, mob/living/D)
+/datum/martial_art/proc/disarm_act(mob/living/A, mob/living/D)
+/datum/martial_art/proc/harm_act(mob/living/A, mob/living/D)
+/datum/martial_art/proc/grab_act(mob/living/A, mob/living/D)
+/datum/martial_art/proc/can_use(mob/living/L)
+/datum/martial_art/proc/add_to_streak(element, mob/living/D)
+/datum/martial_art/proc/reset_streak(mob/living/new_target, update_icon = TRUE)
+/datum/martial_art/proc/teach(mob/living/holder_living, make_temporary=FALSE)
+/datum/martial_art/proc/store(datum/martial_art/old, mob/living/holder_living)
+/datum/martial_art/proc/remove(mob/living/holder_living)
+/datum/martial_art/proc/on_remove(mob/living/holder_living)
+/datum/martial_art/proc/on_projectile_hit(mob/living/A, obj/projectile/P, def_zone)

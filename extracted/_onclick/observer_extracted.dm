@@ -1,0 +1,6 @@
+/mob/dead/observer/DblClickOn(atom/A, params)
+/mob/dead/observer/ClickOn(atom/A, params)
+/atom/proc/attack_ghost(mob/dead/observer/user)
+/mob/living/attack_ghost(mob/dead/observer/user)
+/obj/effect/gateway_portal_bumper/attack_ghost(mob/user)
+/obj/machinery/teleport/hub/attack_ghost(mob/user)

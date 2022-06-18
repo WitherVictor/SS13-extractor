@@ -1,0 +1,13 @@
+/obj/machinery/telecomms
+/obj/machinery/telecomms/attackby(obj/item/P, mob/user, params)
+/obj/machinery/telecomms/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/telecomms/ui_data(mob/user)
+/obj/machinery/telecomms/ui_act(action, params)
+/obj/machinery/telecomms/proc/add_option()
+/obj/machinery/telecomms/bus/add_option()
+/obj/machinery/telecomms/relay/add_option()
+/obj/machinery/telecomms/proc/add_act(action, params)
+/obj/machinery/telecomms/relay/add_act(action, params)
+/obj/machinery/telecomms/bus/add_act(action, params)
+/obj/machinery/telecomms/proc/get_multitool(mob/user)
+/obj/machinery/telecomms/proc/canAccess(mob/user)

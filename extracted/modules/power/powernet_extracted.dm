@@ -1,0 +1,10 @@
+/datum/powernet
+/datum/powernet/New()
+/datum/powernet/Destroy()
+/datum/powernet/proc/is_empty()
+/datum/powernet/proc/remove_cable(obj/structure/cable/C)
+/datum/powernet/proc/add_cable(obj/structure/cable/C)
+/datum/powernet/proc/remove_machine(obj/machinery/power/M)
+/datum/powernet/proc/add_machine(obj/machinery/power/M)
+/datum/powernet/proc/reset()
+/datum/powernet/proc/get_electrocute_damage()

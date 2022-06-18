@@ -1,0 +1,13 @@
+/obj/structure/disposalholder
+/obj/structure/disposalholder/Destroy()
+/obj/structure/disposalholder/proc/init(obj/machinery/disposal/D)
+/obj/structure/disposalholder/proc/start(obj/machinery/disposal/D)
+/obj/structure/disposalholder/proc/move()
+/obj/structure/disposalholder/Moved(atom/oldLoc, dir)
+/obj/structure/disposalholder/proc/nextloc()
+/obj/structure/disposalholder/proc/findpipe(turf/T)
+/obj/structure/disposalholder/proc/merge(obj/structure/disposalholder/other)
+/obj/structure/disposalholder/relaymove(mob/living/user, direction)
+/obj/structure/disposalholder/proc/vent_gas(turf/T)
+/obj/structure/disposalholder/AllowDrop()
+/obj/structure/disposalholder/ex_act(severity, target)

@@ -1,0 +1,1 @@
+/proc/addclientmessage(ckey, message)

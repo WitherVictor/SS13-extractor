@@ -1,0 +1,23 @@
+/datum/component/edible
+/datum/component/edible/Initialize(
+/datum/component/edible/InheritComponent(
+/datum/component/edible/Destroy(force, silent)
+/datum/component/edible/proc/examine(datum/source, mob/user, list/examine_list)
+/datum/component/edible/proc/UseFromHand(obj/item/source, mob/living/M, mob/living/user)
+/datum/component/edible/proc/TryToEatIt(datum/source, mob/user)
+/datum/component/edible/proc/OnFried(fry_object)
+/datum/component/edible/proc/OnProcessed(datum/source, atom/original_atom, list/chosen_processing_option)
+/datum/component/edible/proc/OnCraft(datum/source, list/parts_list, datum/crafting_recipe/food/recipe)
+/datum/component/edible/proc/OnMicrowaved(datum/source, obj/machinery/microwave/used_microwave)
+/datum/component/edible/proc/OnMicrowaveCooked(datum/source, obj/item/source_item, cooking_efficiency = 1)
+/datum/component/edible/proc/IsFoodGone(atom/owner, mob/living/feeder)
+/datum/component/edible/proc/TryToEat(mob/living/eater, mob/living/feeder)
+/datum/component/edible/proc/TakeBite(mob/living/eater, mob/living/feeder)
+/datum/component/edible/proc/CanConsume(mob/living/eater, mob/living/feeder)
+/datum/component/edible/proc/checkLiked(fraction, mob/M)
+/datum/component/edible/proc/On_Consume(mob/living/eater, mob/living/feeder)
+/datum/component/edible/proc/UseByAnimal(datum/source, mob/user)
+/datum/component/edible/proc/on_entered(datum/source, atom/movable/arrived, atom/old_loc, list/atom/old_locs)
+/datum/component/edible/proc/used_to_customize(datum/source, atom/customized)
+/datum/component/edible/proc/edible_ingredient_added(datum/source, datum/component/edible/ingredient)
+/datum/component/edible/proc/on_ooze_eat(datum/source, mob/eater, edible_flags)

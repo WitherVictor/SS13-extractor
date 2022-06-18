@@ -1,0 +1,2 @@
+/datum/actionspeed_modifier/low_sanity
+/datum/actionspeed_modifier/high_sanity

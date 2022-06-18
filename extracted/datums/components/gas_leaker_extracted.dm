@@ -1,0 +1,11 @@
+/datum/component/gas_leaker
+/datum/component/gas_leaker/Initialize(integrity_leak_percent=0.9, leak_rate=1)
+/datum/component/gas_leaker/Destroy(force, silent)
+/datum/component/gas_leaker/RegisterWithParent()
+/datum/component/gas_leaker/UnregisterFromParent()
+/datum/component/gas_leaker/proc/process_atmos()
+/datum/component/gas_leaker/proc/start_processing()
+/datum/component/gas_leaker/proc/process_obj(obj/master, list/airs=list())
+/datum/component/gas_leaker/proc/process_machine(obj/machinery/master, list/airs=list())
+/datum/component/gas_leaker/proc/process_component(obj/machinery/atmospherics/components/master, list/airs=list())
+/datum/component/gas_leaker/proc/process_leak(obj/master, list/airs)

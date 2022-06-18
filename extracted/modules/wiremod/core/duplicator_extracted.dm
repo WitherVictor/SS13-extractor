@@ -1,0 +1,6 @@
+/obj/item/integrated_circuit/proc/load_circuit_data(json_data, list/errors)
+/obj/item/integrated_circuit/proc/convert_to_json()
+/obj/item/integrated_circuit/proc/load_component(type)
+/obj/item/circuit_component/proc/save_data_to_list(list/component_data)
+/obj/item/circuit_component/proc/load_data_from_list(list/component_data)
+/client/proc/load_circuit()

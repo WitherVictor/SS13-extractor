@@ -1,0 +1,10 @@
+/datum/component/stationloving
+/datum/component/stationloving/Initialize(inform_admins = FALSE, allow_item_destruction = FALSE)
+/datum/component/stationloving/InheritComponent(datum/component/stationloving/newc, original, inform_admins, allow_death)
+/datum/component/stationloving/proc/relocate()
+/datum/component/stationloving/proc/on_parent_z_change(datum/source, turf/old_turf, turf/new_turf)
+/datum/component/stationloving/proc/check_soul_imbue()
+/datum/component/stationloving/proc/check_mark_retrieval()
+/datum/component/stationloving/proc/atom_in_bounds(atom/atom_to_check)
+/datum/component/stationloving/proc/on_parent_pre_qdeleted(datum/source, force)
+/datum/component/stationloving/proc/on_parent_unreachable()

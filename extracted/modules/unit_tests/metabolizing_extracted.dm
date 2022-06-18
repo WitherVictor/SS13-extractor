@@ -1,0 +1,7 @@
+/datum/unit_test/metabolization/Run()
+/datum/unit_test/metabolization/proc/test_reagent(mob/living/carbon/C, reagent_type)
+/datum/unit_test/metabolization/Destroy()
+/datum/unit_test/on_mob_end_metabolize/Run()
+/datum/unit_test/on_mob_end_metabolize/Destroy()
+/datum/unit_test/addictions/Run()
+/datum/unit_test/addictions/Destroy()

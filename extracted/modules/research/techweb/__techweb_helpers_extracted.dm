@@ -1,0 +1,7 @@
+/proc/count_unique_techweb_nodes()
+/proc/count_unique_techweb_designs()
+/proc/node_boost_error(id, message)
+/proc/techweb_item_boost_check(obj/item/I)
+/proc/techweb_item_point_check(obj/item/I)
+/proc/techweb_point_display_generic(pointlist)
+/proc/techweb_point_display_rdconsole(pointlist, last_pointlist)

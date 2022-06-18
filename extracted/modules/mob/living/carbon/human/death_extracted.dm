@@ -1,0 +1,8 @@
+/mob/living/carbon/human/gib_animation()
+/mob/living/carbon/human/dust_animation()
+/mob/living/carbon/human/spawn_gibs(with_bodyparts)
+/mob/living/carbon/human/spawn_dust(just_ash = FALSE)
+/mob/living/carbon/human/death(gibbed)
+/mob/living/carbon/human/proc/makeSkeleton()
+/mob/living/carbon/proc/Drain()
+/mob/living/carbon/proc/makeUncloneable()

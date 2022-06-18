@@ -1,0 +1,5 @@
+/mob/living/silicon/robot/gib_animation()
+/mob/living/silicon/robot/dust(just_ash, drop_items, force)
+/mob/living/silicon/robot/spawn_dust()
+/mob/living/silicon/robot/dust_animation()
+/mob/living/silicon/robot/death(gibbed)

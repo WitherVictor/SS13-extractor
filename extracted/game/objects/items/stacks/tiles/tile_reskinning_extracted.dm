@@ -1,0 +1,5 @@
+/obj/item/stack/tile/proc/tile_reskin_list(list/values)
+/obj/item/stack/tile/proc/tile_dir_list(list/values, atom/type_cast_path)
+/obj/item/stack/tile/attack_self(mob/user)
+/obj/item/stack/tile/proc/tile_reskin(mob/user)
+/obj/item/stack/tile/proc/tile_rotate(mob/user)

@@ -1,0 +1,10 @@
+/datum/signal/subspace
+/datum/signal/subspace/New(data)
+/datum/signal/subspace/proc/copy()
+/datum/signal/subspace/proc/mark_done()
+/datum/signal/subspace/proc/send_to_receivers()
+/datum/signal/subspace/proc/broadcast()
+/datum/signal/subspace/vocal
+/datum/signal/subspace/vocal/New(
+/datum/signal/subspace/vocal/copy()
+/datum/signal/subspace/vocal/broadcast()

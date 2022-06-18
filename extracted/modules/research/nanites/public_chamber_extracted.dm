@@ -1,0 +1,21 @@
+/obj/machinery/public_nanite_chamber
+	name = "public nanite chamber"
+	desc = "A device that can rapidly implant cloud-synced nanites without an external operator."
+/obj/machinery/public_nanite_chamber/Initialize()
+/obj/machinery/public_nanite_chamber/RefreshParts()
+/obj/machinery/public_nanite_chamber/proc/set_busy(status, working_icon)
+/obj/machinery/public_nanite_chamber/proc/inject_nanites(mob/living/attacker)
+/obj/machinery/public_nanite_chamber/proc/complete_injection(locked_state, mob/living/attacker)
+/obj/machinery/public_nanite_chamber/proc/change_cloud(mob/living/attacker)
+/obj/machinery/public_nanite_chamber/proc/complete_cloud_change(locked_state, mob/living/attacker)
+/obj/machinery/public_nanite_chamber/update_icon_state()
+/obj/machinery/public_nanite_chamber/update_overlays()
+/obj/machinery/public_nanite_chamber/proc/toggle_open(mob/user)
+/obj/machinery/public_nanite_chamber/container_resist_act(mob/living/user)
+/obj/machinery/public_nanite_chamber/close_machine(mob/living/carbon/user, mob/living/attacker)
+/obj/machinery/public_nanite_chamber/proc/try_inject_nanites(mob/living/attacker)
+/obj/machinery/public_nanite_chamber/open_machine()
+/obj/machinery/public_nanite_chamber/relaymove(mob/living/user, direction)
+/obj/machinery/public_nanite_chamber/attackby(obj/item/I, mob/user, params)
+/obj/machinery/public_nanite_chamber/interact(mob/user)
+/obj/machinery/public_nanite_chamber/MouseDrop_T(mob/target, mob/user)

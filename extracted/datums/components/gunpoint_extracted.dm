@@ -1,0 +1,13 @@
+/datum/component/gunpoint
+/datum/component/gunpoint/Initialize(mob/living/targ, obj/item/gun/wep)
+/datum/component/gunpoint/Destroy(force, silent)
+/datum/component/gunpoint/RegisterWithParent()
+/datum/component/gunpoint/UnregisterFromParent()
+/datum/component/gunpoint/proc/check_bump(atom/B, atom/A)
+/datum/component/gunpoint/proc/check_shove(mob/living/carbon/shooter, mob/shooter_again, mob/living/T, datum/martial_art/attacker_style, modifiers)
+/datum/component/gunpoint/proc/update_stage(new_stage)
+/datum/component/gunpoint/proc/check_deescalate()
+/datum/component/gunpoint/proc/trigger_reaction()
+/datum/component/gunpoint/proc/async_trigger_reaction()
+/datum/component/gunpoint/proc/cancel()
+/datum/component/gunpoint/proc/flinch(attacker, damage, damagetype, def_zone)

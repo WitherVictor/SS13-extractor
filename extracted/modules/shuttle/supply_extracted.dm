@@ -1,0 +1,44 @@
+/mob/living,
+/obj/structure/blob,
+/obj/effect/rune,
+/obj/structure/spider/spiderling,
+/obj/item/disk/nuclear,
+/obj/machinery/nuclearbomb,
+/obj/item/beacon,
+/obj/narsie,
+/obj/tear_in_reality,
+/obj/machinery/teleport/station,
+/obj/machinery/teleport/hub,
+/obj/machinery/quantumpad,
+/obj/effect/mob_spawn,
+/obj/effect/hierophant,
+/obj/structure/receiving_pad,
+/obj/item/warp_cube,
+/obj/machinery/rnd/production, //print tracking beacons, send shuttle
+/obj/machinery/autolathe, //same
+/obj/projectile/beam/wormhole,
+/obj/effect/portal,
+/obj/item/shared_storage,
+/obj/structure/extraction_point,
+/obj/machinery/syndicatebomb,
+/obj/item/hilbertshotel,
+/obj/item/swapper,
+/obj/docking_port,
+/obj/machinery/launchpad,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe,
+/obj/item/mail,
+/obj/item/hilbertshotel,
+/obj/machinery/camera,
+/obj/item/gps,
+/obj/structure/checkoutmachine
+/obj/docking_port/mobile/supply
+	name = "supply shuttle"
+/obj/docking_port/mobile/supply/register()
+/obj/docking_port/mobile/supply/canMove()
+/obj/docking_port/mobile/supply/proc/check_blacklist(areaInstances)
+/obj/docking_port/mobile/supply/request(obj/docking_port/stationary/S)
+/obj/docking_port/mobile/supply/initiate_docking()
+/obj/docking_port/mobile/supply/proc/buy()
+/obj/docking_port/mobile/supply/proc/sell()
+/obj/docking_port/mobile/supply/proc/create_mail()

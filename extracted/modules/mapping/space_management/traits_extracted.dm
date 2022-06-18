@@ -1,0 +1,8 @@
+/datum/controller/subsystem/mapping/proc/level_trait(z, trait)
+/datum/controller/subsystem/mapping/proc/level_has_any_trait(z, list/traits)
+/datum/controller/subsystem/mapping/proc/level_has_all_traits(z, list/traits)
+/datum/controller/subsystem/mapping/proc/levels_by_trait(trait)
+/datum/controller/subsystem/mapping/proc/levels_by_any_trait(list/traits)
+/datum/controller/subsystem/mapping/proc/get_turf_below(turf/T)
+/datum/controller/subsystem/mapping/proc/get_turf_above(turf/T)
+/datum/controller/subsystem/mapping/proc/get_station_center()

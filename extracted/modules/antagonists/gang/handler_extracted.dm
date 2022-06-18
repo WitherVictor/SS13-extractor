@@ -1,0 +1,11 @@
+/datum/gang_handler
+/datum/gang_handler/New(list/given_candidates, list/revised_restricted)
+/datum/gang_handler/proc/pre_setup_analogue()
+/datum/gang_handler/proc/post_setup_analogue(return_if_no_gangs = FALSE)
+/datum/gang_handler/proc/process_analogue()
+/datum/gang_handler/proc/set_round_result_analogue()
+/datum/gang_handler/proc/announce_gang_locations()
+/datum/gang_handler/proc/check_wanted_level()
+/datum/gang_handler/proc/update_wanted_level(newlevel)
+/datum/gang_handler/proc/on_gain_wanted_level(newlevel)
+/datum/gang_handler/proc/on_lower_wanted_level(newlevel)

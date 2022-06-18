@@ -1,0 +1,5 @@
+/proc/is_color_dark(color, threshold = 0.25)
+/proc/expand_three_digit_color(color)
+/proc/random_colour(mode = 0)
+/proc/invert_HTML_colour(HTMLstring)
+/proc/flash_color(mob_or_client, flash_color="#960000", flash_time=20)

@@ -1,0 +1,10 @@
+/datum/element/atmos_sensitive
+/datum/element/atmos_sensitive/Attach(datum/target, mapload)
+/datum/element/atmos_sensitive/Detach(datum/source)
+/datum/element/atmos_sensitive/proc/react_to_move(datum/source, atom/movable/oldloc, direction, forced)
+/atom/proc/check_atmos_process(datum/source, datum/gas_mixture/air, exposed_temperature)
+/atom/proc/process_exposure()
+/turf/open/process_exposure()
+/atom/proc/should_atmos_process(datum/gas_mixture/air, exposed_temperature)
+/atom/proc/atmos_expose(datum/gas_mixture/air, exposed_temperature)
+/atom/proc/atmos_end()

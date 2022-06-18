@@ -1,0 +1,7 @@
+/mob/living/carbon/human/get_movespeed_modifiers()
+/mob/living/carbon/human/slip(knockdown_amount, obj/O, lube, paralyze, forcedrop)
+/mob/living/carbon/human/experience_pressure_difference()
+/mob/living/carbon/human/mob_has_gravity()
+/mob/living/carbon/human/mob_negates_gravity()
+/mob/living/carbon/human/Move(NewLoc, direct)
+/mob/living/carbon/human/Process_Spacemove(movement_dir = 0)

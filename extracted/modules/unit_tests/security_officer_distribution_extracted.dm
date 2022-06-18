@@ -1,0 +1,9 @@
+/datum/unit_test/security_officer_roundstart_distribution
+/datum/unit_test/security_officer_roundstart_distribution/proc/test(
+/datum/unit_test/security_officer_roundstart_distribution/Run()
+/datum/unit_test/security_officer_roundstart_distribution/proc/test_distributions()
+/datum/unit_test/security_officer_roundstart_distribution/proc/test_with_mock_players()
+/datum/unit_test/security_officer_roundstart_distribution/proc/create_officer(preference)
+/datum/unit_test/security_officer_latejoin_distribution
+/datum/unit_test/security_officer_latejoin_distribution/proc/test(
+/datum/unit_test/security_officer_latejoin_distribution/Run()

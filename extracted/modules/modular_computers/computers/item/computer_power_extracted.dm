@@ -1,0 +1,6 @@
+/obj/item/modular_computer/proc/use_power(amount = 0)
+/obj/item/modular_computer/proc/give_power(amount)
+/obj/item/modular_computer/get_cell()
+/obj/item/modular_computer/proc/power_failure()
+/obj/item/modular_computer/proc/handle_power(delta_time)
+/obj/item/modular_computer/proc/check_power_override()

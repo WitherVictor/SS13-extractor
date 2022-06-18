@@ -1,0 +1,9 @@
+/datum/unit_test/harm_punch/Run()
+/datum/unit_test/harm_melee/Run()
+/datum/unit_test/harm_different_damage/Run()
+/datum/unit_test/attack_chain
+/datum/unit_test/attack_chain/proc/attack_hit()
+/datum/unit_test/attack_chain/proc/post_attack_hit()
+/datum/unit_test/attack_chain/proc/pre_attack_hit()
+/datum/unit_test/attack_chain/Run()
+/datum/unit_test/disarm/Run()

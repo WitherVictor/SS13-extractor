@@ -1,0 +1,16 @@
+/datum/tgui_window
+/datum/tgui_window/New(client/client, id, pooled = FALSE)
+/datum/tgui_window/proc/initialize(
+/datum/tgui_window/proc/is_ready()
+/datum/tgui_window/proc/can_be_suspended()
+/datum/tgui_window/proc/acquire_lock(datum/tgui/ui)
+/datum/tgui_window/proc/release_lock()
+/datum/tgui_window/proc/subscribe(datum/object, delegate)
+/datum/tgui_window/proc/unsubscribe(datum/object)
+/datum/tgui_window/proc/close(can_be_suspended = TRUE)
+/datum/tgui_window/proc/send_message(type, payload, force)
+/datum/tgui_window/proc/send_raw_message(message, force)
+/datum/tgui_window/proc/send_asset(datum/asset/asset)
+/datum/tgui_window/proc/flush_message_queue()
+/datum/tgui_window/proc/on_message(type, payload, href_list)
+/datum/tgui_window/vv_edit_var(var_name, var_value)

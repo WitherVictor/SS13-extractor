@@ -1,0 +1,5 @@
+/client/proc/air_status(turf/target)
+/client/proc/fix_next_move()
+/client/proc/radio_report()
+/client/proc/reload_admins()
+/client/proc/toggle_cdn()

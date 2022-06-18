@@ -1,0 +1,12 @@
+/client/proc/show_tip()
+/datum/admins/proc/announce()
+/datum/admins/proc/unprison(mob/M in GLOB.mob_list)
+/client/proc/cmd_admin_check_player_exp() //Allows admins to determine who the newer players are.
+/client/proc/trigger_centcom_recall()
+/datum/admins/proc/cmd_show_exp_panel(client/client_to_check)
+/datum/admins/proc/toggle_exempt_status(client/C)
+/datum/admins/proc/modify_traits(datum/D)
+/client/proc/cmd_admin_drop_everything(mob/M in GLOB.mob_list)
+/proc/cmd_admin_mute(whom, mute_type, automute = 0)
+/proc/immerse_player(mob/living/carbon/target, toggle=TRUE, remove=FALSE)
+/proc/mass_immerse(remove=FALSE)

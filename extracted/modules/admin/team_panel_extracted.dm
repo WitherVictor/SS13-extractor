@@ -1,0 +1,13 @@
+/datum/admins/proc/team_listing()
+/datum/admins/proc/check_teams()
+/datum/admins/proc/admin_create_team(mob/user)
+/datum/team/proc/admin_rename(mob/user)
+	name = team_name
+/datum/team/proc/admin_communicate(mob/user)
+/datum/team/proc/admin_add_objective(mob/user)
+/datum/team/proc/admin_remove_objective(mob/user,datum/objective/O)
+/datum/team/proc/admin_add_member(mob/user)
+/datum/team/proc/admin_remove_member(mob/user,datum/mind/M)
+/datum/team/proc/admin_delete(mob/user)
+/datum/team/Topic(href, href_list)
+/datum/team/proc/get_admin_commands()

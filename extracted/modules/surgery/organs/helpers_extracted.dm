@@ -1,0 +1,6 @@
+/mob/proc/getorgan(typepath)
+/mob/proc/getorganszone(zone)
+/mob/proc/getorganslot(slot)
+/mob/living/carbon/getorgan(typepath)
+/mob/living/carbon/getorganszone(zone, subzones = 0)
+/mob/living/carbon/getorganslot(slot)

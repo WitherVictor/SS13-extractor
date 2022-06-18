@@ -1,0 +1,18 @@
+/proc/tgui_input_list(mob/user, message, title = "Select", list/buttons, timeout = 0)
+/proc/tgui_input_list_async(mob/user, message, title, list/buttons, datum/callback/callback, timeout = 60 SECONDS)
+/datum/tgui_list_input
+/datum/tgui_list_input/New(mob/user, message, title, list/buttons, timeout)
+/datum/tgui_list_input/Destroy(force, ...)
+/datum/tgui_list_input/proc/wait()
+/datum/tgui_list_input/ui_interact(mob/user, datum/tgui/ui)
+/datum/tgui_list_input/ui_close(mob/user)
+/datum/tgui_list_input/ui_state(mob/user)
+/datum/tgui_list_input/ui_static_data(mob/user)
+/datum/tgui_list_input/ui_data(mob/user)
+/datum/tgui_list_input/ui_act(action, list/params)
+/datum/tgui_list_input/proc/set_choice(choice)
+/datum/tgui_list_input/async
+/datum/tgui_list_input/async/New(mob/user, message, title, list/buttons, callback, timeout)
+/datum/tgui_list_input/async/Destroy(force, ...)
+/datum/tgui_list_input/async/set_choice(choice)
+/datum/tgui_list_input/async/wait()

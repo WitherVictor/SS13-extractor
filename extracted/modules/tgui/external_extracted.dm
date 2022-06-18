@@ -1,0 +1,15 @@
+/datum/proc/ui_interact(mob/user, datum/tgui/ui)
+/datum/proc/ui_data(mob/user)
+/datum/proc/ui_static_data(mob/user)
+/datum/proc/update_static_data(mob/user, datum/tgui/ui)
+/datum/proc/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/proc/ui_assets(mob/user)
+/datum/proc/ui_host(mob/user)
+/datum/proc/ui_state(mob/user)
+/datum/var/list/tgui_shared_states
+/mob/var/list/tgui_open_uis = list()
+/client/var/list/tgui_windows = list()
+/client/var/tgui_cache_reloaded = FALSE
+/datum/proc/ui_close(mob/user)
+/client/verb/uiclose(window_id as text)
+/proc/tgui_Topic(href_list)

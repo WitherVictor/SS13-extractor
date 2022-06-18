@@ -1,0 +1,26 @@
+/proc/get_abductor_console(team_number)
+/obj/machinery/abductor
+/obj/machinery/abductor/console
+	name = "abductor console"
+	desc = "Ship command center."
+/obj/machinery/abductor/console/Initialize(mapload)
+/obj/machinery/abductor/console/proc/get_abductor_gear()
+/obj/machinery/abductor/console/attack_hand(mob/user, list/modifiers)
+/obj/machinery/abductor/console/ui_status(mob/user)
+/obj/machinery/abductor/console/ui_state(mob/user)
+/obj/machinery/abductor/console/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/abductor/console/ui_static_data(mob/user)
+/obj/machinery/abductor/console/ui_data(mob/user)
+/obj/machinery/abductor/console/ui_act(action, list/params)
+/obj/machinery/abductor/console/proc/TeleporterRetrieve()
+/obj/machinery/abductor/console/proc/TeleporterSend()
+/obj/machinery/abductor/console/proc/FlipVest()
+/obj/machinery/abductor/console/proc/SelectDisguise(remote = FALSE)
+/obj/machinery/abductor/console/proc/SetDroppoint(turf/open/location,user)
+/obj/machinery/abductor/console/Initialize(mapload)
+/obj/machinery/abductor/console/LateInitialize()
+/obj/machinery/abductor/console/proc/AddSnapshot(mob/living/carbon/human/target)
+/obj/machinery/abductor/console/proc/AddGizmo(obj/item/abductor/gizmo/G)
+/obj/machinery/abductor/console/proc/AddVest(obj/item/clothing/suit/armor/abductor/vest/V)
+/obj/machinery/abductor/console/attackby(obj/O, mob/user, params)
+/obj/machinery/abductor/console/proc/Dispense(item,cost=1)

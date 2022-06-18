@@ -1,0 +1,10 @@
+/datum/unit_test/connect_loc_basic
+/datum/unit_test/connect_loc_basic/Run()
+/datum/unit_test/connect_loc_change_turf
+/datum/unit_test/connect_loc_change_turf/Run()
+/datum/unit_test/connect_loc_change_turf/Destroy()
+/datum/unit_test/connect_loc_multiple_on_turf
+/datum/unit_test/connect_loc_multiple_on_turf/Run()
+/obj/item/watches_mock_calls
+/obj/item/watches_mock_calls/Initialize(mapload)
+/obj/item/watches_mock_calls/proc/on_receive_mock_signal(datum/source)

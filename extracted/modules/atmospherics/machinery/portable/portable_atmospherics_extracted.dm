@@ -1,0 +1,18 @@
+/obj/machinery/portable_atmospherics
+	name = "portable_atmospherics"
+/obj/machinery/portable_atmospherics/Initialize(mapload)
+/obj/machinery/portable_atmospherics/Destroy()
+/obj/machinery/portable_atmospherics/ex_act(severity, target)
+/obj/machinery/portable_atmospherics/process_atmos()
+/obj/machinery/portable_atmospherics/return_air()
+/obj/machinery/portable_atmospherics/return_analyzable_air()
+/obj/machinery/portable_atmospherics/proc/connect(obj/machinery/atmospherics/components/unary/portables_connector/new_port)
+/obj/machinery/portable_atmospherics/Move()
+/obj/machinery/portable_atmospherics/proc/disconnect()
+/obj/machinery/portable_atmospherics/AltClick(mob/living/user)
+/obj/machinery/portable_atmospherics/examine(mob/user)
+/obj/machinery/portable_atmospherics/proc/replace_tank(mob/living/user, close_valve, obj/item/tank/new_tank)
+/obj/machinery/portable_atmospherics/attackby(obj/item/item, mob/user, params)
+/obj/machinery/portable_atmospherics/wrench_act(mob/living/user, obj/item/wrench)
+/obj/machinery/portable_atmospherics/attacked_by(obj/item/item, mob/user)
+/obj/machinery/portable_atmospherics/proc/unregister_holding()

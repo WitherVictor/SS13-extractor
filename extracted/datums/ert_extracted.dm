@@ -1,0 +1,14 @@
+/datum/ert
+/datum/ert/New()
+/datum/ert/blue
+/datum/ert/amber
+/datum/ert/red
+/datum/ert/deathsquad
+/datum/ert/marine
+/datum/ert/centcom_official
+/datum/ert/centcom_official/New()
+/datum/ert/inquisition
+/datum/ert/janitor
+/datum/ert/intern
+/datum/ert/intern/unarmed
+/datum/ert/erp

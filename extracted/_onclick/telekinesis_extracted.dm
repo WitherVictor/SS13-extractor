@@ -1,0 +1,25 @@
+/atom/proc/attack_tk(mob/user)
+/obj/attack_tk(mob/user)
+/obj/item/attack_tk(mob/user)
+/obj/proc/attack_tk_grab(mob/user)
+/mob/attack_tk(mob/user)
+/atom/proc/attack_self_tk(mob/user)
+/obj/item/attack_self_tk(mob/user)
+/obj/item/tk_grab
+	name = "Telekinetic Grab"
+	desc = "Magic"
+/obj/item/tk_grab/Initialize(mapload)
+/obj/item/tk_grab/Destroy()
+/obj/item/tk_grab/process()
+/obj/item/tk_grab/dropped(mob/user)
+/obj/item/tk_grab/equipped(mob/user, slot)
+/obj/item/tk_grab/examine(user)
+/obj/item/tk_grab/attack_self(mob/user)
+/obj/item/tk_grab/afterattack(atom/target, mob/living/carbon/user, proximity, params)//TODO: go over this
+/proc/tkMaxRangeCheck(mob/user, atom/target)
+/obj/item/tk_grab/attack(mob/living/M, mob/living/user, def_zone)
+/obj/item/tk_grab/proc/focus_object(obj/target)
+/obj/item/tk_grab/proc/check_if_focusable(obj/target)
+/obj/item/tk_grab/proc/apply_focus_overlay()
+/obj/item/tk_grab/update_overlays()
+/obj/item/tk_grab/suicide_act(mob/user)

@@ -1,0 +1,6 @@
+/proc/add_memory_in_range(atom/source, range, memory_type, extra_info, story_value, memory_flags, protagonist_memory_flags)
+/datum/mind/proc/add_memory(memory_type, extra_info, story_value, memory_flags)
+/datum/mind/proc/build_story_mob(mob/living/target)
+/datum/mind/proc/build_story_detail(detail)
+/datum/mind/proc/select_memory(verbage)
+/datum/mind/proc/wipe_memory()

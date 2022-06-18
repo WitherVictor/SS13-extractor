@@ -1,0 +1,11 @@
+/mob/living/silicon/ai/proc/get_camera_list()
+/mob/living/silicon/ai/proc/show_camera_list()
+/datum/trackable
+/mob/living/silicon/ai/proc/trackable_mobs()
+	name = text("[] ([])", name, track.namecounts[name])
+/mob/living/silicon/ai/verb/ai_camera_track(target_name in trackable_mobs())
+/mob/living/silicon/ai/proc/ai_actual_track(mob/living/target)
+/mob/living/silicon/ai/proc/do_track(mob/living/target, mob/living/silicon/ai/U)
+/proc/near_camera(mob/living/M)
+/obj/machinery/camera/attack_ai(mob/living/silicon/ai/user)
+/proc/camera_sort(list/L)

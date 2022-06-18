@@ -1,0 +1,10 @@
+/datum/lighting_corner
+/datum/lighting_corner/New(turf/new_turf, diagonal)
+/datum/lighting_corner/proc/save_master(turf/master, dir)
+/datum/lighting_corner/proc/self_destruct_if_idle()
+/datum/lighting_corner/proc/vis_update()
+/datum/lighting_corner/proc/full_update()
+/datum/lighting_corner/proc/update_lumcount(delta_r, delta_g, delta_b)
+/datum/lighting_corner/proc/update_objects()
+/datum/lighting_corner/dummy/New()
+/datum/lighting_corner/Destroy(force)

@@ -1,0 +1,18 @@
+/proc/tgui_input_number(mob/user, message = null, title = "Number Input", default = null, max_value = null, min_value = 0, timeout = 0)
+/proc/tgui_input_number_async(mob/user, message = null, title = "Number Input", default = null, max_value = null, min_value = 0, datum/callback/callback, timeout = 60 SECONDS)
+/datum/tgui_input_number
+/datum/tgui_input_number/New(mob/user, message, title, default, max_value, min_value, timeout)
+/datum/tgui_input_number/Destroy(force, ...)
+/datum/tgui_input_number/proc/wait()
+/datum/tgui_input_number/ui_interact(mob/user, datum/tgui/ui)
+/datum/tgui_input_number/ui_close(mob/user)
+/datum/tgui_input_number/ui_state(mob/user)
+/datum/tgui_input_number/ui_static_data(mob/user)
+/datum/tgui_input_number/ui_data(mob/user)
+/datum/tgui_input_number/ui_act(action, list/params)
+/datum/tgui_input_number/proc/set_entry(entry)
+/datum/tgui_input_number/async
+/datum/tgui_input_number/async/New(mob/user, message, title, default, max_value, min_value, callback, timeout)
+/datum/tgui_input_number/async/Destroy(force, ...)
+/datum/tgui_input_number/async/set_entry(entry)
+/datum/tgui_input_number/async/wait()

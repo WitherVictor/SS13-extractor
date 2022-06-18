@@ -1,0 +1,15 @@
+/datum/species/ethereal
+	name = "Ethereal"
+/datum/species/ethereal/Destroy(force)
+/datum/species/ethereal/on_species_gain(mob/living/carbon/C, datum/species/old_species, pref_load)
+/datum/species/ethereal/on_species_loss(mob/living/carbon/human/C, datum/species/new_species, pref_load)
+/datum/species/ethereal/random_name(gender,unique,lastname)
+/datum/species/ethereal/spec_updatehealth(mob/living/carbon/human/H)
+/datum/species/ethereal/proc/on_emp_act(mob/living/carbon/human/H, severity)
+/datum/species/ethereal/proc/on_emag_act(mob/living/carbon/human/H, mob/user)
+/datum/species/ethereal/proc/on_light_eater(mob/living/carbon/human/source, datum/light_eater)
+/datum/species/ethereal/proc/stop_emp(mob/living/carbon/human/H)
+/datum/species/ethereal/proc/handle_emag(mob/living/carbon/human/H)
+/datum/species/ethereal/proc/stop_emag(mob/living/carbon/human/H)
+/datum/species/ethereal/get_features()
+/datum/species/ethereal/get_scream_sound(mob/living/carbon/human/ethereal)

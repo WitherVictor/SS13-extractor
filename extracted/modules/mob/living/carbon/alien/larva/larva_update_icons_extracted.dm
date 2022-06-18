@@ -1,0 +1,5 @@
+/mob/living/carbon/alien/larva/regenerate_icons()
+/mob/living/carbon/alien/larva/update_icons()
+/mob/living/carbon/alien/larva/perform_update_transform() //All this is handled in update_icons()
+/mob/living/carbon/alien/larva/update_inv_handcuffed()
+/mob/living/carbon/alien/larva/lying_angle_on_lying_down(new_lying_angle)

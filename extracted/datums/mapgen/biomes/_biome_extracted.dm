@@ -1,0 +1,9 @@
+/datum/biome
+/datum/biome/proc/generate_turf(turf/gen_turf)
+/datum/biome/mudlands
+/datum/biome/plains
+/datum/biome/jungle
+/datum/biome/jungle/deep
+/datum/biome/wasteland
+/datum/biome/water
+/datum/biome/mountain

@@ -1,0 +1,11 @@
+/obj/vehicle/sealed/car
+/obj/vehicle/sealed/car/generate_actions()
+/obj/vehicle/sealed/car/MouseDrop_T(atom/dropping, mob/M)
+/obj/vehicle/sealed/car/mob_try_exit(mob/M, mob/user, silent = FALSE)
+/obj/vehicle/sealed/car/attack_hand(mob/living/user, list/modifiers)
+/obj/vehicle/sealed/car/proc/mob_try_forced_enter(mob/forcer, mob/kidnapped, silent = FALSE)
+/obj/vehicle/sealed/car/proc/is_car_stationary(atom/old_loc)
+/obj/vehicle/sealed/car/proc/mob_forced_enter(mob/kidnapped, silent = FALSE)
+/obj/vehicle/sealed/car/atom_destruction(damage_flag)
+/obj/vehicle/sealed/car/relaymove(mob/living/user, direction)
+/obj/vehicle/sealed/car/vehicle_move(direction)

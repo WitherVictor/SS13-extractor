@@ -1,0 +1,11 @@
+/datum/export/organ
+/datum/export/organ/heart
+/datum/export/organ/eyes
+/datum/export/organ/ears
+/datum/export/organ/liver
+/datum/export/organ/lungs
+/datum/export/organ/stomach
+/datum/export/organ/tongue
+/datum/export/organ/tail/lizard
+/datum/export/organ/tail/cat
+/datum/export/organ/ears/cat

@@ -1,0 +1,11 @@
+/datum/admins/proc/show_player_panel(mob/M in GLOB.mob_list)
+/client/proc/cmd_admin_godmode(mob/M in GLOB.mob_list)
+/N */
+/client/proc/respawn_character()
+/client/proc/cmd_admin_list_open_jobs()
+/datum/admins/proc/manage_free_slots()
+/client/proc/toggle_view_range()
+/client/proc/toggle_combo_hud()
+/datum/admins/proc/show_traitor_panel(mob/target_mob in GLOB.mob_list)
+/datum/admins/proc/show_skill_panel(target)
+/datum/admins/proc/show_lag_switch_panel()

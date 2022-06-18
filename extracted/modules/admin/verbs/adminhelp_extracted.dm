@@ -1,0 +1,66 @@
+/client/var/adminhelptimerid = 0
+/client/var/datum/admin_help/current_ticket
+/datum/admin_help_tickets
+/datum/admin_help_tickets/Destroy()
+/datum/admin_help_tickets/proc/TicketByID(id)
+/datum/admin_help_tickets/proc/TicketsByCKey(ckey)
+/datum/admin_help_tickets/proc/ListInsert(datum/admin_help/new_ticket)
+/datum/admin_help_tickets/proc/BrowseTickets(state)
+/datum/admin_help_tickets/proc/stat_entry()
+/datum/admin_help_tickets/proc/ClientLogin(client/C)
+/datum/admin_help_tickets/proc/ClientLogout(client/C)
+/datum/admin_help_tickets/proc/CKey2ActiveTicket(ckey)
+/obj/effect/statclick/ticket_list
+/obj/effect/statclick/ticket_list/Initialize(mapload, name, state)
+/obj/effect/statclick/ticket_list/Click()
+/obj/effect/statclick/ticket_list/proc/Action()
+/datum/admin_help
+/datum/admin_help/New(msg_raw, client/C, is_bwoink, client/admin_C, urgent = FALSE) //SKYRAT EDIT CHANGE
+	name = copytext_char(msg, 1, 100)
+/datum/admin_help/proc/send_message_to_tgs(message, urgent = FALSE)
+/proc/send2adminchat_webhook(message)
+/datum/admin_help/Destroy()
+/datum/admin_help/proc/AddInteraction(formatted_message)
+/datum/admin_help/proc/TimeoutVerb()
+/datum/admin_help/proc/FullMonty(ref_src)
+/datum/admin_help/proc/ClosureLinks(ref_src)
+/datum/admin_help/proc/LinkedReplyName(ref_src)
+/datum/admin_help/proc/TicketHref(msg, ref_src, action = "ticket")
+/datum/admin_help/proc/MessageNoRecipient(msg, urgent = FALSE)
+/datum/admin_help/proc/Reopen()
+/datum/admin_help/proc/RemoveActive()
+/datum/admin_help/proc/Close(key_name = key_name_admin(usr), silent = FALSE)
+/datum/admin_help/proc/Resolve(key_name = key_name_admin(usr), silent = FALSE)
+/datum/admin_help/proc/Reject(key_name = key_name_admin(usr))
+/datum/admin_help/proc/ICIssue(key_name = key_name_admin(usr))
+/datum/admin_help/proc/TicketPanel()
+/datum/admin_help/proc/ticket_status()
+/datum/admin_help/proc/Retitle()
+	name = new_title
+/datum/admin_help/proc/Action(action)
+/obj/effect/statclick/ahelp
+/obj/effect/statclick/ahelp/Initialize(mapload, datum/admin_help/AH)
+/obj/effect/statclick/ahelp/update()
+/obj/effect/statclick/ahelp/Click()
+/obj/effect/statclick/ahelp/Destroy()
+/client/proc/giveadminhelpverb()
+/datum/admin_help_ui_handler
+/datum/admin_help_ui_handler/ui_state(mob/user)
+/datum/admin_help_ui_handler/ui_data(mob/user)
+/datum/admin_help_ui_handler/ui_static_data(mob/user)
+/datum/admin_help_ui_handler/ui_interact(mob/user, datum/tgui/ui)
+/datum/admin_help_ui_handler/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/admin_help_ui_handler/proc/perform_adminhelp(client/user_client, message, urgent)
+/client/verb/no_tgui_adminhelp(message as message)
+/client/verb/adminhelp()
+/proc/admin_ticket_log(what, message, log_in_blackbox = TRUE, admin_only = TRUE) // SKYRAT EDIT CHANGE -- Player ticket viewing
+/proc/get_admin_counts(requiredflags = R_BAN)
+/proc/send2tgs_adminless_only(source, msg, requiredflags = R_BAN)
+/proc/send2otherserver(source, msg, type = "Ahelp", target_servers, list/additional_data = list())
+/world/proc/send_cross_comms(server_name, list/message, auth = TRUE)
+/proc/tgsadminwho()
+/proc/keywords_lookup(msg,external)
+/proc/get_mob_by_name(msg)
+	name = string
+	name = string
+/proc/check_admin_pings(msg)

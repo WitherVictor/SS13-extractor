@@ -1,0 +1,12 @@
+/datum/unit_test/find_reference_sanity
+/atom/movable/ref_holder
+/atom/movable/ref_holder/Destroy()
+/atom/movable/ref_test
+/atom/movable/ref_test/Destroy(force)
+/datum/unit_test/find_reference_sanity/Run()
+/datum/unit_test/find_reference_baseline/Run()
+/datum/unit_test/find_reference_exotic/Run()
+/datum/unit_test/find_reference_esoteric/Run()
+/datum/unit_test/find_reference_null_key_entry/Run()
+/datum/unit_test/find_reference_assoc_investigation/Run()
+/datum/unit_test/find_reference_static_investigation/Run()

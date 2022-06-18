@@ -1,0 +1,7 @@
+/datum/game_mode/dynamic/proc/pick_ruleset(list/drafted_rules)
+/datum/game_mode/dynamic/proc/pick_midround_rule(list/drafted_rules)
+/datum/game_mode/dynamic/proc/execute_midround_rule(datum/dynamic_ruleset/rule)
+/datum/game_mode/dynamic/proc/pick_latejoin_rule(list/drafted_rules)
+/datum/game_mode/dynamic/proc/execute_midround_latejoin_rule(sent_rule)
+/datum/game_mode/dynamic/proc/admin_cancel_midround(mob/user, timer_id)
+/datum/game_mode/dynamic/proc/admin_different_midround(mob/user, timer_id)

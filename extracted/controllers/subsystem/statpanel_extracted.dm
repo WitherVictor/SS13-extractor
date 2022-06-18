@@ -1,0 +1,10 @@
+	name = "Stat Panels"
+/datum/controller/subsystem/statpanels/fire(resumed = FALSE)
+/datum/controller/subsystem/statpanels/proc/generate_mc_data()
+/atom/proc/remove_from_cache()
+/client/verb/set_tab(tab as text|null)
+/client/verb/send_tabs(tabs as text|null)
+/client/verb/remove_tabs(tabs as text|null)
+/client/verb/reset_tabs()
+/client/verb/panel_ready()
+/client/verb/update_verbs()

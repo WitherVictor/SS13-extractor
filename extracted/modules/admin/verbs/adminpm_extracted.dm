@@ -1,0 +1,6 @@
+/client/proc/cmd_admin_pm_context(mob/M in GLOB.mob_list)
+/client/proc/cmd_admin_pm_panel()
+/client/proc/cmd_ahelp_reply(whom)
+/client/proc/cmd_admin_pm(whom, msg)
+/proc/TgsPm(target,msg,sender)
+/proc/GenTgsStealthKey()

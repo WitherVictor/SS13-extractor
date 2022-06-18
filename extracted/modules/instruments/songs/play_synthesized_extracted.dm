@@ -1,0 +1,6 @@
+/datum/song/proc/compile_synthesized()
+/datum/song/proc/playkey_synth(key, atom/player)
+/datum/song/proc/terminate_all_sounds(clear_channels = TRUE)
+/datum/song/proc/terminate_sound_mob(mob/M)
+/datum/song/proc/pop_channel()
+/datum/song/proc/process_decay(wait_ds)

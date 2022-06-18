@@ -1,0 +1,19 @@
+/mob/living/silicon/robot
+	name = "Cyborg"
+/mob/living/silicon/robot/nocell
+/mob/living/silicon/robot/shell
+/mob/living/silicon/robot/model
+/mob/living/silicon/robot/model/Initialize(mapload)
+/mob/living/silicon/robot/model/clown
+/mob/living/silicon/robot/model/engineering
+/mob/living/silicon/robot/model/janitor
+/mob/living/silicon/robot/model/medical
+/mob/living/silicon/robot/model/miner
+/mob/living/silicon/robot/model/peacekeeper
+/mob/living/silicon/robot/model/security
+/mob/living/silicon/robot/model/service
+/mob/living/silicon/robot/model/syndicate
+/mob/living/silicon/robot/model/syndicate/proc/show_playstyle()
+/mob/living/silicon/robot/model/syndicate/medical
+/mob/living/silicon/robot/model/syndicate/saboteur
+/mob/living/silicon/robot/model/syndicate/kiltborg

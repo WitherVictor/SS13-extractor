@@ -1,0 +1,15 @@
+/obj/item/circuit_component/list_literal
+	desc = "A component that creates a list from whatever input you give it."
+/obj/item/circuit_component/list_literal/populate_options()
+/obj/item/circuit_component/list_literal/save_data_to_list(list/component_data)
+/obj/item/circuit_component/list_literal/load_data_from_list(list/component_data)
+/obj/item/circuit_component/list_literal/proc/clear_lists()
+/obj/item/circuit_component/list_literal/proc/remove_one_entry()
+/obj/item/circuit_component/list_literal/proc/add_one_entry()
+/obj/item/circuit_component/list_literal/proc/set_list_size(new_size)
+/obj/item/circuit_component/list_literal/pre_input_received(datum/port/input/port)
+/obj/item/circuit_component/list_literal/populate_ports()
+/obj/item/circuit_component/list_literal/Destroy()
+/obj/item/circuit_component/list_literal/ui_perform_action(mob/user, action)
+/obj/item/circuit_component/list_literal/input_received(datum/port/input/port)
+/proc/get_list_count(list/value, max_list_count)

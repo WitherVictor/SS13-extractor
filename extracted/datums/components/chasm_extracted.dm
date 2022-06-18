@@ -1,0 +1,27 @@
+/datum/component/chasm
+/obj/singularity,
+/obj/energy_ball,
+/obj/narsie,
+/obj/docking_port,
+/obj/structure/lattice,
+/obj/structure/stone_tile,
+/obj/projectile,
+/obj/effect/projectile,
+/obj/effect/portal,
+/obj/effect/abstract,
+/obj/effect/hotspot,
+/obj/effect/landmark,
+/obj/effect/temp_visual,
+/obj/effect/light_emitter/tendril,
+/obj/effect/collapse,
+/obj/effect/particle_effect/ion_trails,
+/obj/effect/dummy/phased_mob,
+/obj/effect/mapping_helpers,
+/obj/effect/wisp,
+/datum/component/chasm/Initialize(turf/target)
+/datum/component/chasm/proc/Entered(datum/source, atom/movable/arrived, atom/old_loc, list/atom/old_locs)
+/datum/component/chasm/process()
+/datum/component/chasm/proc/is_safe()
+/datum/component/chasm/proc/drop_stuff(AM)
+/datum/component/chasm/proc/droppable(atom/movable/AM)
+/datum/component/chasm/proc/drop(atom/movable/AM)

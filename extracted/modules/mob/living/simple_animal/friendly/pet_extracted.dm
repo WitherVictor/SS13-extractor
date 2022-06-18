@@ -1,0 +1,10 @@
+/mob/living/simple_animal/pet
+/mob/living/simple_animal/pet/handle_atom_del(atom/A)
+/mob/living/simple_animal/pet/proc/add_collar(obj/item/clothing/neck/petcollar/P, mob/user)
+/mob/living/simple_animal/pet/attackby(obj/item/O, mob/user, params)
+/mob/living/simple_animal/pet/Initialize(mapload)
+/mob/living/simple_animal/pet/Destroy()
+/mob/living/simple_animal/pet/gib()
+/mob/living/simple_animal/pet/revive(full_heal = FALSE, admin_revive = FALSE)
+/mob/living/simple_animal/pet/death(gibbed)
+/mob/living/simple_animal/pet/regenerate_icons()

@@ -1,0 +1,45 @@
+/proc/make_field(field_type, list/field_params, override_checks = FALSE, start_field = TRUE)
+/datum/proximity_monitor/advanced
+/datum/proximity_monitor/advanced/Destroy()
+/datum/proximity_monitor/advanced/proc/assume_params(list/field_params)
+/datum/proximity_monitor/advanced/proc/check_variables()
+/datum/proximity_monitor/advanced/process()
+/datum/proximity_monitor/advanced/proc/process_inner_turf(turf/T)
+/datum/proximity_monitor/advanced/proc/process_edge_turf(turf/T)
+/datum/proximity_monitor/advanced/New(atom/_host, range, _ignore_if_not_on_turf = TRUE)
+/datum/proximity_monitor/advanced/proc/begin_field()
+/datum/proximity_monitor/advanced/proc/full_cleanup()  //Full cleanup for when you change something that would require complete resetting.
+/datum/proximity_monitor/advanced/proc/check_movement()
+/datum/proximity_monitor/advanced/proc/recalculate_field(ignore_movement_check = FALSE) //Call every time the field moves (done automatically if you use update_center) or a setup specification is changed.
+/datum/proximity_monitor/advanced/proc/field_turf_canpass(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_turf/F, border_dir)
+/datum/proximity_monitor/advanced/proc/field_turf_crossed(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_turf/F)
+/datum/proximity_monitor/advanced/proc/field_turf_uncrossed(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_turf/F)
+/datum/proximity_monitor/advanced/proc/field_edge_canpass(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_edge/F, border_dir)
+/datum/proximity_monitor/advanced/proc/field_edge_crossed(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_edge/F)
+/datum/proximity_monitor/advanced/proc/field_edge_uncrossed(atom/movable/AM, obj/effect/abstract/proximity_checker/advanced/field_edge/F)
+/datum/proximity_monitor/advanced/HandleMove()
+/datum/proximity_monitor/advanced/proc/post_setup_field()
+/datum/proximity_monitor/advanced/proc/setup_field()
+/datum/proximity_monitor/advanced/proc/cleanup_field_turf(turf/T)
+/datum/proximity_monitor/advanced/proc/cleanup_edge_turf(turf/T)
+/datum/proximity_monitor/advanced/proc/setup_field_turf(turf/T)
+/datum/proximity_monitor/advanced/proc/setup_edge_turf(turf/T)
+/datum/proximity_monitor/advanced/proc/update_new_turfs()
+/datum/proximity_monitor/advanced/proc/get_edgeturf_direction(turf/T, turf/center_override = null)
+/datum/proximity_monitor/advanced/debug
+	name = "\improper Color Matrix Field"
+/datum/proximity_monitor/advanced/debug/setup_edge_turf(turf/T)
+/datum/proximity_monitor/advanced/debug/cleanup_edge_turf(turf/T)
+/datum/proximity_monitor/advanced/debug/setup_field_turf(turf/T)
+/datum/proximity_monitor/advanced/debug/cleanup_field_turf(turf/T)
+/obj/item/multitool/field_debug
+	name = "strange multitool"
+	desc = "Seems to project a colored field!"
+/obj/item/multitool/field_debug/Initialize(mapload)
+/obj/item/multitool/field_debug/Destroy()
+/obj/item/multitool/field_debug/proc/setup_debug_field()
+/obj/item/multitool/field_debug/attack_self(mob/user)
+/obj/item/multitool/field_debug/dropped()
+/obj/item/multitool/field_debug/proc/on_mob_move()
+/obj/item/multitool/field_debug/process()
+/obj/item/multitool/field_debug/proc/check_turf(turf/T)

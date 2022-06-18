@@ -1,0 +1,10 @@
+/datum/component/food_storage
+/datum/component/food_storage/Initialize(_minimum_weight_class = WEIGHT_CLASS_SMALL, _bad_chance = 0, _good_chance = 100)
+/datum/component/food_storage/Destroy(force, silent)
+/datum/component/food_storage/proc/try_inserting_item(datum/source, obj/item/inserted_item, mob/living/user, params)
+/datum/component/food_storage/proc/try_removing_item(datum/source, mob/user)
+/datum/component/food_storage/proc/insert_item(obj/item/inserted_item, mob/user)
+/datum/component/food_storage/proc/begin_remove_item(mob/user)
+/datum/component/food_storage/proc/remove_item(mob/user)
+/datum/component/food_storage/proc/consume_food_storage(datum/source, mob/living/target, mob/living/user, bitecount, bitesize)
+/datum/component/food_storage/proc/update_stored_item()

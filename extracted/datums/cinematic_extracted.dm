@@ -1,0 +1,37 @@
+/proc/Cinematic(id,watcher,datum/callback/special_callback)
+/atom/movable/screen/cinematic
+/datum/cinematic
+/datum/cinematic/New()
+/datum/cinematic/Destroy()
+/datum/cinematic/proc/play(watchers)
+/datum/cinematic/proc/show_to(mob/M, client/C)
+/datum/cinematic/proc/cinematic_sound(s)
+/datum/cinematic/proc/special()
+/datum/cinematic/proc/content()
+/datum/cinematic/proc/replacement_cinematic(datum/source, datum/cinematic/other)
+/datum/cinematic/nuke_win
+/datum/cinematic/nuke_win/content()
+/datum/cinematic/nuke_miss
+/datum/cinematic/nuke_miss/content()
+/datum/cinematic/nuke_selfdestruct
+/datum/cinematic/nuke_selfdestruct/content()
+/datum/cinematic/nuke_selfdestruct_miss
+/datum/cinematic/nuke_selfdestruct_miss/content()
+/datum/cinematic/malf
+/datum/cinematic/malf/content()
+/datum/cinematic/cult
+/datum/cinematic/cult/content()
+/datum/cinematic/cult_nuke
+/datum/cinematic/cult_nuke/content()
+/datum/cinematic/cult_fail
+/datum/cinematic/cult_fail/content()
+/datum/cinematic/nuke_annihilation
+/datum/cinematic/nuke_annihilation/content()
+/datum/cinematic/fake
+/datum/cinematic/fake/content()
+/datum/cinematic/no_core
+/datum/cinematic/no_core/content()
+/datum/cinematic/nuke_far
+/datum/cinematic/nuke_far/content()
+/datum/cinematic/clownop
+/datum/cinematic/clownop/content()

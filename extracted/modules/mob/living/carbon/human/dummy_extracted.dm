@@ -1,0 +1,16 @@
+/mob/living/carbon/human/dummy
+/mob/living/carbon/human/dummy/Destroy()
+/mob/living/carbon/human/dummy/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/carbon/human/dummy/attach_rot(mapload)
+/mob/living/carbon/human/dummy/set_species(datum/species/mrace, icon_update = TRUE, pref_load = FALSE)
+/mob/living/carbon/human/dummy/proc/harvest_organs()
+/mob/living/carbon/human/dummy/delete_equipment()
+/mob/living/carbon/human/dummy/has_equipped(obj/item/item, slot, initial = FALSE)
+/mob/living/carbon/human/dummy/proc/wipe_state()
+/mob/living/carbon/human/dummy/setup_human_dna()
+/mob/living/carbon/human/dummy/consistent
+/mob/living/carbon/human/dummy/consistent/setup_human_dna()
+/proc/generate_or_wait_for_human_dummy(slotkey)
+/proc/generate_dummy_lookalike(slotkey, mob/target)
+/proc/unset_busy_human_dummy(slotkey)
+/proc/clear_human_dummy(slotkey)

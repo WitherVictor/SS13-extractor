@@ -1,0 +1,7 @@
+/mob/living/basic/proc/adjust_health(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustBruteLoss(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustFireLoss(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustOxyLoss(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustToxLoss(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustCloneLoss(amount, updating_health = TRUE, forced = FALSE)
+/mob/living/basic/adjustStaminaLoss(amount, updating_health = FALSE, forced = FALSE)

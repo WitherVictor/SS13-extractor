@@ -1,0 +1,11 @@
+/proc/getArmor(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, fire = 0, acid = 0, wound = 0)
+/datum/armor
+/datum/armor/New(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, fire = 0, acid = 0, wound = 0)
+/datum/armor/proc/modifyRating(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, fire = 0, acid = 0, wound = 0)
+/datum/armor/proc/modifyAllRatings(modifier = 0)
+/datum/armor/proc/setRating(melee, bullet, laser, energy, bomb, bio, fire, acid, wound)
+/datum/armor/proc/getRating(rating)
+/datum/armor/proc/getList()
+/datum/armor/proc/attachArmor(datum/armor/AA)
+/datum/armor/proc/detachArmor(datum/armor/AA)
+/datum/armor/vv_edit_var(var_name, var_value)

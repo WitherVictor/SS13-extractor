@@ -1,0 +1,6 @@
+/datum/ui_state/default/can_use_topic(src_object, mob/user)
+/mob/proc/default_can_use_topic(src_object)
+/mob/living/default_can_use_topic(src_object)
+/mob/living/silicon/robot/default_can_use_topic(src_object)
+/mob/living/silicon/ai/default_can_use_topic(src_object)
+/mob/living/silicon/pai/default_can_use_topic(src_object)

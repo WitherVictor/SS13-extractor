@@ -1,0 +1,23 @@
+/obj/machinery/chem_mass_spec
+	name = "High-performance liquid chromatography machine"
+	desc = {"This machine can separate reagents based on charge, meaning it can clean reagents of some of their impurities, unlike the Chem Master 3000.
+/obj/machinery/chem_mass_spec/Initialize(mapload)
+/obj/machinery/chem_mass_spec/Destroy()
+/obj/machinery/chem_mass_spec/RefreshParts()
+/obj/machinery/chem_mass_spec/deconstruct(disassembled)
+/obj/machinery/chem_mass_spec/update_overlays()
+/obj/machinery/chem_mass_spec/attackby(obj/item/item, mob/user, params)
+/obj/machinery/chem_mass_spec/attackby_secondary(obj/item/item, mob/user, params)
+/obj/machinery/chem_mass_spec/AltClick(mob/living/user)
+/obj/machinery/chem_mass_spec/alt_click_secondary(mob/living/user)
+/obj/machinery/chem_mass_spec/proc/replace_beaker(mob/living/user, target_beaker, obj/item/reagent_containers/new_beaker)
+/obj/machinery/chem_mass_spec/update_icon_state()
+/obj/machinery/chem_mass_spec/update_overlays()
+/obj/machinery/chem_mass_spec/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/chem_mass_spec/ui_data(mob/user)
+/obj/machinery/chem_mass_spec/ui_act(action, params)
+/obj/machinery/chem_mass_spec/process(delta_time)
+/obj/machinery/chem_mass_spec/proc/purify_reagents()
+/obj/machinery/chem_mass_spec/proc/calculate_largest_mass()
+/obj/machinery/chem_mass_spec/proc/calculate_smallest_mass()
+/obj/machinery/chem_mass_spec/proc/estimate_time()

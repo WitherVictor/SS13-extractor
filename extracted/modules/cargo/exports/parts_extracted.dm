@@ -1,0 +1,15 @@
+/datum/export/solar/assembly
+/datum/export/solar/tracker_board
+/datum/export/solar/control_board
+/datum/export/modular_part
+/datum/export/modular_part/processor
+/datum/export/modular_part/processor/photoic
+/datum/export/modular_part/battery
+/datum/export/modular_part/battery/upgraded
+/datum/export/modular_part/battery/advanced
+/datum/export/modular_part/harddrive
+/datum/export/modular_part/harddrive/small
+/datum/export/modular_part/harddrive/normal
+/datum/export/modular_part/networkcard
+/datum/export/modular_part/idcard
+/datum/export/modular_part/intellicard

@@ -1,0 +1,6 @@
+/proc/Gcd(a, b)
+/proc/SolveQuadratic(a, b, c)
+/proc/closer_angle_difference(a, b)
+/proc/gaussian(mean, stddev)
+/proc/get_turf_in_angle(angle, turf/starting, increments)
+/proc/get_overlap(x1, y1, x2, y2, x3, y3, x4, y4)

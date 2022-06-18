@@ -1,0 +1,12 @@
+/datum/material
+/datum/material/proc/Initialize(_id, ...)
+/datum/material/proc/on_applied(atom/source, amount, material_flags)
+/atom/proc/mat_update_desc(datum/material/mat)
+/datum/material/proc/on_applied_obj(obj/o, amount, material_flags)
+/datum/material/proc/on_applied_turf(turf/T, amount, material_flags)
+/datum/material/proc/get_greyscale_config_for(datum/greyscale_config/config_path)
+/datum/material/proc/on_removed(atom/source, amount, material_flags)
+/datum/material/proc/on_removed_obj(obj/o, amount, material_flags)
+/datum/material/proc/on_removed_turf(turf/T, amount, material_flags)
+/datum/material/proc/on_accidental_mat_consumption(mob/living/carbon/M, obj/item/S)
+/datum/material/proc/return_composition(amount=1, breakdown_flags=NONE)

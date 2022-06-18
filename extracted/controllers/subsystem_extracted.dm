@@ -1,0 +1,17 @@
+/datum/controller/subsystem
+	name = "fire coderbus"
+/datum/controller/subsystem/proc/PreInit()
+/datum/controller/subsystem/proc/ignite(resumed = FALSE)
+/datum/controller/subsystem/proc/fire(resumed = FALSE)
+/datum/controller/subsystem/Destroy()
+/datum/controller/subsystem/proc/update_nextfire(reset_time = FALSE)
+/datum/controller/subsystem/proc/enqueue()
+/datum/controller/subsystem/proc/dequeue()
+/datum/controller/subsystem/proc/pause()
+/datum/controller/subsystem/proc/OnConfigLoad()
+/datum/controller/subsystem/Initialize(start_timeofday)
+/datum/controller/subsystem/stat_entry(msg)
+/datum/controller/subsystem/proc/state_letter()
+/datum/controller/subsystem/proc/postpone(cycles = 1)
+/datum/controller/subsystem/Recover()
+/datum/controller/subsystem/vv_edit_var(var_name, var_value)

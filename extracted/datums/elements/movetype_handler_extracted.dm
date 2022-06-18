@@ -1,0 +1,10 @@
+/datum/element/movetype_handler
+/datum/element/movetype_handler/Attach(datum/target)
+/datum/element/movetype_handler/Detach(datum/source)
+/datum/element/movetype_handler/proc/on_movement_type_trait_gain(atom/movable/source, trait)
+/datum/element/movetype_handler/proc/on_movement_type_trait_loss(atom/movable/source, trait)
+/datum/element/movetype_handler/proc/on_no_floating_anim_trait_gain(atom/movable/source, trait)
+/datum/element/movetype_handler/proc/on_no_floating_anim_trait_loss(atom/movable/source, trait)
+/datum/element/movetype_handler/proc/pause_floating_anim(atom/movable/source, timer)
+/datum/element/movetype_handler/process()
+/datum/element/movetype_handler/proc/stop_floating(atom/movable/target)

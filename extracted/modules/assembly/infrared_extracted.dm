@@ -1,0 +1,32 @@
+/obj/item/assembly/infra
+	name = "infrared emitter"
+	desc = "Emits a visible or invisible beam and is triggered when the beam is interrupted."
+/obj/item/assembly/infra/Initialize(mapload)
+/obj/item/assembly/infra/ComponentInitialize()
+/obj/item/assembly/infra/proc/after_rotation()
+/obj/item/assembly/infra/Destroy()
+/obj/item/assembly/infra/examine(mob/user)
+/obj/item/assembly/infra/activate()
+/obj/item/assembly/infra/toggle_secure()
+/obj/item/assembly/infra/update_appearance(updates=ALL)
+/obj/item/assembly/infra/update_overlays()
+/obj/item/assembly/infra/dropped()
+/obj/item/assembly/infra/process()
+/obj/item/assembly/infra/proc/refreshBeam()
+/obj/item/assembly/infra/on_detach()
+/obj/item/assembly/infra/attack_hand(mob/user, list/modifiers)
+/obj/item/assembly/infra/Moved()
+/obj/item/assembly/infra/throw_at(atom/target, range, speed, mob/thrower, spin=1, diagonals_first = 0, datum/callback/callback, force, gentle = FALSE, quickstart = TRUE)
+/obj/item/assembly/infra/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+/obj/item/assembly/infra/proc/trigger_beam(atom/movable/AM, turf/location)
+/obj/item/assembly/infra/proc/switchListener(turf/newloc)
+/obj/item/assembly/infra/proc/check_exit(datum/source, atom/movable/gone, direction)
+/obj/item/assembly/infra/setDir()
+/obj/item/assembly/infra/ui_status(mob/user)
+/obj/item/assembly/infra/ui_interact(mob/user, datum/tgui/ui)
+/obj/item/assembly/infra/ui_data(mob/user)
+/obj/item/assembly/infra/ui_act(action, params)
+/obj/effect/beam/i_beam
+	name = "infrared beam"
+/obj/effect/beam/i_beam/Initialize(mapload)
+/obj/effect/beam/i_beam/proc/on_entered(datum/source, atom/movable/AM as mob|obj)

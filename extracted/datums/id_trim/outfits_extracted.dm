@@ -1,0 +1,9 @@
+/datum/id_trim/reaper_assassin
+/datum/id_trim/highlander/New()
+/datum/id_trim/mobster
+/datum/id_trim/vr
+/datum/id_trim/vr/New()
+/datum/id_trim/vr/operative
+/datum/id_trim/vr/operative/New()
+/datum/id_trim/tunnel_clown
+/datum/id_trim/tunnel_clown/New()

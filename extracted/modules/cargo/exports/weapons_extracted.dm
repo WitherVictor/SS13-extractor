@@ -1,0 +1,13 @@
+/datum/export/weapon
+/datum/export/weapon/baton
+/datum/export/weapon/knife
+/datum/export/weapon/taser
+/datum/export/weapon/laser
+/datum/export/weapon/disabler
+/datum/export/weapon/energy_gun
+/datum/export/weapon/wt550
+/datum/export/weapon/shotgun
+/datum/export/weapon/flashbang
+/datum/export/weapon/teargas
+/datum/export/weapon/flash
+/datum/export/weapon/handcuffs

@@ -1,0 +1,15 @@
+/obj/machinery/chem_recipe_debug
+	name = "chemical reaction tester"
+/obj/machinery/chem_recipe_debug/Initialize(mapload)
+/obj/machinery/chem_recipe_debug/attackby(obj/item/I, mob/user, params)
+/obj/machinery/chem_recipe_debug/AltClick(mob/living/user)
+/obj/machinery/chem_recipe_debug/proc/setup_reactions()
+/obj/machinery/chem_recipe_debug/process(delta_time)
+/obj/machinery/chem_recipe_debug/proc/relay_all_reactions()
+/obj/machinery/chem_recipe_debug/proc/relay_ended_reaction()
+/obj/machinery/chem_recipe_debug/proc/setup_reaction()
+/obj/machinery/chem_recipe_debug/ui_data(mob/user)
+/obj/machinery/chem_recipe_debug/ui_act(action, params)
+/obj/machinery/chem_recipe_debug/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/chem_recipe_debug/ui_status(mob/user)
+/obj/machinery/chem_recipe_debug/ui_state(mob/user)

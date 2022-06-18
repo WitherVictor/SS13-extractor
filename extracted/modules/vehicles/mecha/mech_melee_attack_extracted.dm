@@ -1,0 +1,6 @@
+/atom/proc/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker)
+/turf/closed/wall/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker)
+/obj/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker)
+/obj/structure/window/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker)
+/mob/living/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker, mob/living/user)
+/mob/living/carbon/human/mech_melee_attack(obj/vehicle/sealed/mecha/mecha_attacker, mob/living/user)

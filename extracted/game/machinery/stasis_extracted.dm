@@ -1,0 +1,21 @@
+/obj/machinery/stasis
+	name = "lifeform stasis unit"
+	desc = "A not so comfortable looking bed with some nozzles at the top and bottom. It will keep someone in stasis."
+/obj/machinery/stasis/Destroy()
+/obj/machinery/stasis/examine(mob/user)
+/obj/machinery/stasis/proc/play_power_sound()
+/obj/machinery/stasis/AltClick(mob/user)
+/obj/machinery/stasis/Exited(atom/movable/gone, direction)
+/obj/machinery/stasis/proc/stasis_running()
+/obj/machinery/stasis/update_icon_state()
+/obj/machinery/stasis/update_overlays()
+/obj/machinery/stasis/atom_break(damage_flag)
+/obj/machinery/stasis/power_change()
+/obj/machinery/stasis/proc/chill_out(mob/living/target)
+/obj/machinery/stasis/proc/thaw_them(mob/living/target)
+/obj/machinery/stasis/post_buckle_mob(mob/living/L)
+/obj/machinery/stasis/post_unbuckle_mob(mob/living/L)
+/obj/machinery/stasis/process()
+/obj/machinery/stasis/screwdriver_act(mob/living/user, obj/item/I)
+/obj/machinery/stasis/crowbar_act(mob/living/user, obj/item/I)
+/obj/machinery/stasis/nap_violation(mob/violator)

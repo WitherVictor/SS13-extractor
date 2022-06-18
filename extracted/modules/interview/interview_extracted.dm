@@ -1,0 +1,11 @@
+/datum/interview
+/datum/interview/New(client/interviewee)
+/datum/interview/proc/approve(client/approved_by)
+/datum/interview/proc/deny(client/denied_by)
+/datum/interview/proc/reconnect_owner()
+/mob/dead/new_player/proc/open_interview()
+/datum/interview/ui_interact(mob/user, datum/tgui/ui = null)
+/datum/interview/ui_state(mob/user)
+/datum/interview/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/interview/ui_data(mob/user)
+/datum/interview/proc/link_self()

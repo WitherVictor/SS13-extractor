@@ -1,0 +1,22 @@
+/obj/machinery/modular_computer
+	name = "modular computer"
+	desc = "An advanced computer."
+/obj/machinery/modular_computer/Initialize(mapload)
+/obj/machinery/modular_computer/Destroy()
+/obj/machinery/modular_computer/examine(mob/user)
+/obj/machinery/modular_computer/attack_ghost(mob/dead/observer/user)
+/obj/machinery/modular_computer/emag_act(mob/user)
+/obj/machinery/modular_computer/update_appearance(updates)
+/obj/machinery/modular_computer/update_icon_state()
+/obj/machinery/modular_computer/update_overlays()
+/obj/machinery/modular_computer/proc/relay_icon_update(datum/source, updates, updated)
+/obj/machinery/modular_computer/AltClick(mob/user)
+/obj/machinery/modular_computer/interact(mob/user)
+/obj/machinery/modular_computer/process(delta_time)
+/obj/machinery/modular_computer/proc/power_failure(malfunction = 0)
+/obj/machinery/modular_computer/power_change()
+/obj/machinery/modular_computer/screwdriver_act(mob/user, obj/item/tool)
+/obj/machinery/modular_computer/attackby(obj/item/W as obj, mob/living/user)
+/obj/machinery/modular_computer/ex_act(severity)
+/obj/machinery/modular_computer/emp_act(severity)
+/obj/machinery/modular_computer/bullet_act(obj/projectile/Proj)

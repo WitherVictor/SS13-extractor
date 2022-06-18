@@ -1,0 +1,11 @@
+/client/proc/cmd_change_command_name()
+/client/proc/cmd_admin_create_centcom_report()
+/datum/command_report_menu
+/datum/command_report_menu/New(mob/user)
+/datum/command_report_menu/ui_state(mob/user)
+/datum/command_report_menu/ui_close()
+/datum/command_report_menu/ui_interact(mob/user, datum/tgui/ui)
+/datum/command_report_menu/ui_data(mob/user)
+/datum/command_report_menu/ui_static_data(mob/user)
+/datum/command_report_menu/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/command_report_menu/proc/send_announcement()

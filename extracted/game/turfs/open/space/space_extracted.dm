@@ -1,0 +1,27 @@
+/turf/open/space
+	name = "\proper space"
+/turf/open/space/basic/New() //Do not convert to Initialize
+/turf/open/space/mirage
+/turf/open/space/Initialize(mapload)
+/turf/open/space/attack_ghost(mob/dead/observer/user)
+/turf/open/space/Initalize_Atmos(times_fired)
+/turf/open/space/TakeTemperature(temp)
+/turf/open/space/RemoveLattice()
+/turf/open/space/AfterChange()
+/turf/open/space/Assimilate_Air()
+/turf/open/space/remove_air(amount)
+/turf/open/space/proc/update_starlight()
+/turf/open/space/attack_paw(mob/user, list/modifiers)
+/turf/open/space/proc/CanBuildHere()
+/turf/open/space/handle_slip()
+/turf/open/space/attackby(obj/item/C, mob/user, params)
+/turf/open/space/Entered(atom/movable/arrived, atom/old_loc, list/atom/old_locs)
+/turf/open/space/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
+/turf/open/space/singularity_act()
+/turf/open/space/can_have_cabling()
+/turf/open/space/is_transition_turf()
+/turf/open/space/acid_act(acidpwr, acid_volume)
+/turf/open/space/get_smooth_underlay_icon(mutable_appearance/underlay_appearance, turf/asking_turf, adjacency_dir)
+/turf/open/space/rcd_vals(mob/user, obj/item/construction/rcd/the_rcd)
+/turf/open/space/rcd_act(mob/user, obj/item/construction/rcd/the_rcd, passed_mode)
+/turf/open/space/ReplaceWithLattice()

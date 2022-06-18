@@ -1,0 +1,18 @@
+/obj/item/mecha_parts/mecha_equipment
+	name = "mecha equipment"
+/obj/item/mecha_parts/mecha_equipment/proc/update_chassis_page()
+/obj/item/mecha_parts/mecha_equipment/proc/update_equip_info()
+/obj/item/mecha_parts/mecha_equipment/Destroy()
+/obj/item/mecha_parts/mecha_equipment/try_attach_part(mob/user, obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/proc/get_equip_info()
+/obj/item/mecha_parts/mecha_equipment/proc/action_checks(atom/target)
+/obj/item/mecha_parts/mecha_equipment/proc/action(mob/source, atom/target, list/modifiers)
+/obj/item/mecha_parts/mecha_equipment/proc/do_after_cooldown(atom/target, mob/user, interaction_key)
+/obj/item/mecha_parts/mecha_equipment/proc/do_after_mecha(atom/target, mob/user, delay)
+/obj/item/mecha_parts/mecha_equipment/proc/can_attach(obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/proc/attach(obj/vehicle/sealed/mecha/M)
+/obj/item/mecha_parts/mecha_equipment/proc/detach(atom/moveto=null)
+/obj/item/mecha_parts/mecha_equipment/Topic(href,href_list)
+/obj/item/mecha_parts/mecha_equipment/log_message(message, message_type=LOG_GAME, color=null, log_globally)
+/obj/item/mecha_parts/mecha_equipment/proc/rearm()
+/obj/item/mecha_parts/mecha_equipment/proc/needs_rearm()

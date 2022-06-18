@@ -1,0 +1,26 @@
+/obj/machinery/microwave//SKYRAT EDIT - ICON OVERRIDEN BY AESTHETICS - SEE MODULE
+	name = "microwave oven"
+	desc = "Cooks and boils stuff."
+/obj/machinery/microwave/Initialize(mapload)
+/obj/machinery/microwave/Destroy()
+/obj/machinery/microwave/RefreshParts()
+/obj/machinery/microwave/examine(mob/user)
+/obj/machinery/microwave/update_icon_state()
+/obj/machinery/microwave/attackby(obj/item/O, mob/living/user, params)
+/obj/machinery/microwave/attack_hand_secondary(mob/user, list/modifiers)
+/obj/machinery/microwave/ui_interact(mob/user)
+/obj/machinery/microwave/proc/eject()
+/obj/machinery/microwave/proc/cook()
+/obj/machinery/microwave/proc/wzhzhzh()
+/obj/machinery/microwave/proc/spark()
+/obj/machinery/microwave/proc/start()
+/obj/machinery/microwave/proc/start_can_fail()
+/obj/machinery/microwave/proc/muck()
+/obj/machinery/microwave/proc/loop(type, time, wait = max(12 - 2 * efficiency, 2)) // standard wait is 10
+/obj/machinery/microwave/power_change()
+/obj/machinery/microwave/proc/loop_finish()
+/obj/machinery/microwave/dump_inventory_contents()
+/obj/machinery/microwave/proc/pre_fail()
+/obj/machinery/microwave/proc/pre_success()
+/obj/machinery/microwave/proc/muck_finish()
+/obj/machinery/microwave/proc/after_finish_loop()

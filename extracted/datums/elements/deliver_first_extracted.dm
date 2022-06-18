@@ -1,0 +1,10 @@
+/datum/element/deliver_first
+/datum/element/deliver_first/Attach(datum/target, goal_area_type, payment)
+/datum/element/deliver_first/Detach(datum/target)
+/datum/element/deliver_first/proc/on_examine(obj/structure/closet/target, mob/user, list/examine_list)
+/datum/element/deliver_first/proc/area_check(obj/structure/closet/target)
+/datum/element/deliver_first/proc/on_moved(obj/structure/closet/target, atom/oldloc, direction)
+/datum/element/deliver_first/proc/on_emag(obj/structure/closet/target, mob/emagger)
+/datum/element/deliver_first/proc/on_pre_open(obj/structure/closet/target, mob/living/user, force)
+/datum/element/deliver_first/proc/on_post_open(obj/structure/closet/target, force)
+/datum/element/deliver_first/proc/remove_lock(obj/structure/closet/target)

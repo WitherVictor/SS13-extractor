@@ -1,0 +1,8 @@
+/mob/living/silicon/ai/Life(delta_time = SSMOBS_DT, times_fired)
+/mob/living/silicon/ai/proc/lacks_power()
+/mob/living/silicon/ai/updatehealth()
+/mob/living/silicon/ai/update_stat()
+/mob/living/silicon/ai/update_sight()
+/mob/living/silicon/ai/proc/start_RestorePowerRoutine()
+/mob/living/silicon/ai/proc/ai_restore_power()
+/mob/living/silicon/ai/proc/ai_lose_power()

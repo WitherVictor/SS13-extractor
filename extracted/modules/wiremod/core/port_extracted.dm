@@ -1,0 +1,23 @@
+/datum/port
+/datum/port/New(obj/item/circuit_component/to_connect, name, datatype, order = 1)
+/datum/port/Destroy(force)
+/datum/port/proc/set_value(value, force = FALSE)
+/datum/port/input/proc/set_input(value, list/return_values)
+/datum/port/output/proc/set_output(value)
+/datum/port/proc/set_datatype(type_to_set)
+/datum/port/input/set_datatype(new_type)
+/datum/port/proc/datatype_ui_data(mob/user)
+/datum/port/output
+/datum/port/proc/disconnect_all()
+/datum/port/input/disconnect_all()
+/datum/port/input/proc/disconnect(datum/port/output/output)
+/datum/port/proc/on_value_qdeleting(datum/source)
+/datum/port/input
+/datum/port/input/New(obj/item/circuit_component/to_connect, name, datatype, order = 1, trigger = null, default = null)
+/datum/port/input/proc/connect(datum/port/output/output)
+/datum/port/input/set_datatype(new_type)
+/datum/port/input/proc/can_receive_from_datatype(datatype_to_check)
+/datum/port/input/proc/handle_manual_input(mob/user, manual_input)
+/datum/port/input/proc/receive_value(datum/port/output/output, value)
+/datum/port/proc/null_value(datum/source)
+/datum/port/input/proc/check_type(datum/port/output/output)

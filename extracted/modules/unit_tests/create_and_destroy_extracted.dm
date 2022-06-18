@@ -1,0 +1,10 @@
+/datum/unit_test/create_and_destroy
+/datum/unit_test/create_and_destroy/Run()
+/mob/living/carbon,
+/obj/item/food/grown,
+/obj/item/slimecross/recurring,
+/obj/machinery/doomsday_device,
+/obj/machinery/restaurant_portal,
+/obj/effect/mob_spawn,
+/obj/structure/holosign/robot_seat,
+/mob/dview,

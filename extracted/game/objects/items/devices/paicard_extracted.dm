@@ -1,0 +1,17 @@
+/obj/item/paicard
+	name = "personal AI device"
+/obj/item/paicard/suicide_act(mob/living/user)
+/obj/item/paicard/Initialize(mapload)
+/obj/item/paicard/vv_edit_var(vname, vval)
+/obj/item/paicard/handle_atom_del(atom/A)
+/obj/item/paicard/update_overlays()
+/obj/item/paicard/Destroy()
+/obj/item/paicard/attack_self(mob/user)
+/obj/item/paicard/ui_interact(mob/user, datum/tgui/ui)
+/obj/item/paicard/ui_state(mob/user)
+/obj/item/paicard/ui_data(mob/user)
+/obj/item/paicard/ui_act(action, list/params)
+/obj/item/paicard/proc/setPersonality(mob/living/silicon/pai/personality)
+/obj/item/paicard/proc/alertUpdate()
+/obj/item/paicard/emp_act(severity)
+/obj/item/paicard/proc/pool_candidates()

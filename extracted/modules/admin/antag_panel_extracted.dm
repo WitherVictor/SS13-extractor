@@ -1,0 +1,8 @@
+/proc/cmp_antagpanel(datum/antagonist/A,datum/antagonist/B)
+/datum/mind/proc/add_antag_wrapper(antag_type,mob/user)
+/proc/listtrim(list/L)
+/datum/antagonist/proc/antag_panel()
+/datum/antagonist/proc/antag_panel_objectives()
+/datum/mind/proc/get_common_admin_commands()
+/datum/mind/proc/get_special_statuses()
+/datum/mind/proc/traitor_panel()

@@ -1,0 +1,5 @@
+/datum/looping_sound/active_outside_ashstorm
+/datum/looping_sound/active_inside_ashstorm
+/datum/looping_sound/weak_outside_ashstorm
+/datum/looping_sound/weak_inside_ashstorm
+/datum/looping_sound/void_loop

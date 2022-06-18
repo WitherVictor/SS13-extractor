@@ -1,0 +1,15 @@
+/obj/item/ammo_casing/energy/ion
+/obj/item/ammo_casing/energy/ion/hos
+/obj/item/ammo_casing/energy/declone
+/obj/item/ammo_casing/energy/declone/weak
+/obj/item/ammo_casing/energy/flora
+/obj/item/ammo_casing/energy/flora/yield
+/obj/item/ammo_casing/energy/flora/mut
+/obj/item/ammo_casing/energy/flora/revolution
+/obj/item/ammo_casing/energy/temp
+/obj/item/ammo_casing/energy/temp/hot
+/obj/item/ammo_casing/energy/meteor
+/obj/item/ammo_casing/energy/net
+/obj/item/ammo_casing/energy/trap
+/obj/item/ammo_casing/energy/tesla_cannon
+/obj/item/ammo_casing/energy/shrink

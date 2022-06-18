@@ -1,0 +1,16 @@
+/datum/map_generator_module/bottom_layer/repressurize
+/datum/map_generator_module/bottom_layer/repressurize/generate()
+/datum/map_generator_module/bottom_layer/massdelete
+/datum/map_generator_module/bottom_layer/massdelete/generate()
+/datum/map_generator_module/bottom_layer/massdelete/no_delete_mobs/New()
+/datum/map_generator_module/bottom_layer/massdelete/leave_turfs
+/datum/map_generator_module/bottom_layer/massdelete/regeneration_delete
+/datum/map_generator_module/bottom_layer/massdelete/regeneration_delete/New()
+/datum/map_generator_module/border
+/datum/map_generator_module/border/generate()
+/datum/map_generator_module/border/proc/is_border(turf/T)
+/datum/map_generator/repressurize
+/datum/map_generator/massdelete
+/datum/map_generator/massdelete/nomob
+/datum/map_generator/massdelete/noturf
+/datum/map_generator/massdelete/regen

@@ -1,0 +1,35 @@
+/obj/structure/training_machine
+	name = "AURUMILL-Brand MkII. Personnel Training Machine"
+	desc = "Used for combat training simulations. Accepts standard training targets. A pair of buckling straps are attached."
+/obj/structure/training_machine/Destroy()
+/obj/structure/training_machine/atom_destruction(damage_flag)
+/obj/structure/training_machine/ui_state(mob/user)
+/obj/structure/training_machine/ui_interact(mob/user, datum/tgui/ui)
+/obj/structure/training_machine/ui_data(mob/user)
+/obj/structure/training_machine/ui_act(action, params)
+/obj/structure/training_machine/attack_hand(mob/user, list/modifiers)
+/obj/structure/training_machine/attackby(obj/item/target, mob/living/user)
+/obj/structure/training_machine/proc/attach_item(obj/target)
+/obj/structure/training_machine/proc/on_attached_delete()
+/obj/structure/training_machine/proc/remove_attached_item(mob/user, throwing = FALSE)
+/obj/structure/training_machine/AltClick(mob/user)
+/obj/structure/training_machine/proc/toggle()
+/obj/structure/training_machine/proc/stop_moving(message = "Ending training simulation.")
+/obj/structure/training_machine/proc/start_moving()
+/obj/structure/training_machine/process()
+/obj/structure/training_machine/proc/find_target_position()
+/obj/structure/training_machine/proc/try_attack()
+/obj/structure/training_machine/proc/handle_density()
+/obj/structure/training_machine/buckle_mob(mob/living/M, force = FALSE, check_loc = TRUE)
+/obj/structure/training_machine/post_buckle_mob()
+/obj/structure/training_machine/post_unbuckle_mob()
+/obj/structure/training_machine/emag_act(mob/user)
+/obj/structure/training_machine/examine(mob/user)
+/obj/item/training_toolbox
+	name = "Training Toolbox"
+	desc = "AURUMILL-Brand Baby's First Training Toolbox. A digital display on the back keeps track of hits made by the user. Second toolbox sold separately!"
+/obj/item/training_toolbox/afterattack(atom/target, mob/living/user, proximity)
+/obj/item/training_toolbox/proc/check_hit(atom/target)
+/obj/item/training_toolbox/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+/obj/item/training_toolbox/AltClick(mob/user)
+/obj/item/training_toolbox/examine(mob/user)

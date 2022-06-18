@@ -1,0 +1,13 @@
+/datum/component/explodable
+/datum/component/explodable/Initialize(devastation_range_override, heavy_impact_range_override, light_impact_range_override, flame_range_override, flash_range_override, _always_delete = TRUE)
+/datum/component/explodable/proc/explodable_insert_item(datum/source, obj/item/I, mob/M, silent = FALSE, force = FALSE)
+/datum/component/explodable/proc/explodable_impact(datum/source, atom/hit_atom, datum/thrownthing/throwingdatum)
+/datum/component/explodable/proc/explodable_bump(datum/source, atom/A)
+/datum/component/explodable/proc/explodable_attack(datum/source, atom/movable/target, mob/living/user)
+/datum/component/explodable/proc/welder_react(datum/source, mob/user, obj/item/tool)
+/datum/component/explodable/proc/explodable_attack_zone(datum/source, damage, damagetype, def_zone)
+/datum/component/explodable/proc/on_equip(datum/source, mob/equipper, slot)
+/datum/component/explodable/proc/on_drop(datum/source, mob/user)
+/datum/component/explodable/proc/is_hitting_zone(def_zone)
+/datum/component/explodable/proc/check_if_detonate(target)
+/datum/component/explodable/proc/detonate()

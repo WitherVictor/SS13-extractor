@@ -1,0 +1,5 @@
+/obj/item/modular_computer/attack_self(mob/user)
+/obj/item/modular_computer/ui_interact(mob/user, datum/tgui/ui)
+/obj/item/modular_computer/ui_data(mob/user)
+/obj/item/modular_computer/ui_act(action, params)
+/obj/item/modular_computer/ui_host()

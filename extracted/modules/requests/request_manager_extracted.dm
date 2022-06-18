@@ -1,0 +1,13 @@
+/datum/request_manager
+/datum/request_manager/Destroy(force, ...)
+/datum/request_manager/proc/client_login(client/C)
+/datum/request_manager/proc/client_logout(client/C)
+/datum/request_manager/proc/pray(client/C, message, is_chaplain)
+/datum/request_manager/proc/message_centcom(client/C, message)
+/datum/request_manager/proc/message_syndicate(client/C, message)
+/datum/request_manager/proc/nuke_request(client/C, message)
+/datum/request_manager/proc/request_for_client(client/C, type, message)
+/datum/request_manager/ui_interact(mob/user, datum/tgui/ui = null)
+/datum/request_manager/ui_state(mob/user)
+/datum/request_manager/ui_act(action, list/params, datum/tgui/ui, datum/ui_state/state)
+/datum/request_manager/ui_data(mob/user)

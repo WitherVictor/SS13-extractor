@@ -1,0 +1,11 @@
+/datum/component/manual_breathing
+/datum/component/manual_breathing/Initialize()
+/datum/component/manual_breathing/Destroy(force, silent)
+/datum/component/manual_breathing/RegisterWithParent()
+/datum/component/manual_breathing/UnregisterFromParent()
+/datum/component/manual_breathing/proc/restart()
+/datum/component/manual_breathing/proc/pause()
+/datum/component/manual_breathing/process()
+/datum/component/manual_breathing/proc/check_added_organ(mob/who_cares, obj/item/organ/O)
+/datum/component/manual_breathing/proc/check_removed_organ(mob/who_cares, obj/item/organ/O)
+/datum/component/manual_breathing/proc/check_emote(mob/living/carbon/user, datum/emote/emote)

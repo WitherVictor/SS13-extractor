@@ -1,0 +1,20 @@
+/obj/structure/votebox
+	name = "voting box"
+	desc = "An automatic voting box."
+/obj/structure/votebox/attackby(obj/item/I, mob/living/user, params)
+/obj/structure/votebox/interact(mob/user)
+/obj/structure/votebox/ui_interact(mob/user)
+/obj/structure/votebox/Topic(href, href_list)
+/obj/structure/votebox/proc/register_owner(obj/item/card/id/I,mob/living/user)
+/obj/structure/votebox/proc/set_description(mob/user)
+/obj/structure/votebox/proc/is_operator(mob/living/user)
+/obj/structure/votebox/proc/apply_vote(obj/item/paper/I,mob/living/user)
+/obj/structure/votebox/proc/valid_vote(obj/item/paper/I)
+/obj/structure/votebox/proc/shred(mob/user)
+/obj/structure/votebox/wrench_act(mob/living/user, obj/item/I)
+/obj/structure/votebox/crowbar_act(mob/living/user, obj/item/I)
+/obj/structure/votebox/dump_contents()
+/obj/structure/votebox/deconstruct(disassembled)
+/obj/structure/votebox/proc/raffle(mob/user)
+/obj/structure/votebox/proc/print_tally(mob/user)
+/obj/structure/votebox/update_icon_state()

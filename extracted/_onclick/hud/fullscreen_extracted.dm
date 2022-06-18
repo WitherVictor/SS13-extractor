@@ -1,0 +1,31 @@
+/mob/proc/overlay_fullscreen(category, type, severity)
+/mob/proc/clear_fullscreen(category, animated = 10)
+/mob/proc/clear_fullscreen_after_animate(atom/movable/screen/fullscreen/screen)
+/mob/proc/clear_fullscreens()
+/mob/proc/hide_fullscreens()
+/mob/proc/reload_fullscreen()
+/atom/movable/screen/fullscreen
+/atom/movable/screen/fullscreen/proc/update_for_view(client_view)
+/atom/movable/screen/fullscreen/proc/should_show_to(mob/mymob)
+/atom/movable/screen/fullscreen/Destroy()
+/atom/movable/screen/fullscreen/brute
+/atom/movable/screen/fullscreen/oxy
+/atom/movable/screen/fullscreen/crit
+/atom/movable/screen/fullscreen/crit/vision
+/atom/movable/screen/fullscreen/blind
+/atom/movable/screen/fullscreen/curse
+/atom/movable/screen/fullscreen/ivanov_display
+/atom/movable/screen/fullscreen/impaired
+/atom/movable/screen/fullscreen/flash
+/atom/movable/screen/fullscreen/flash/black
+/atom/movable/screen/fullscreen/flash/static
+/atom/movable/screen/fullscreen/high
+/atom/movable/screen/fullscreen/color_vision
+/atom/movable/screen/fullscreen/color_vision/green
+/atom/movable/screen/fullscreen/color_vision/red
+/atom/movable/screen/fullscreen/color_vision/blue
+/atom/movable/screen/fullscreen/cinematic_backdrop
+/atom/movable/screen/fullscreen/lighting_backdrop
+/atom/movable/screen/fullscreen/lighting_backdrop/lit
+/atom/movable/screen/fullscreen/lighting_backdrop/unlit
+/atom/movable/screen/fullscreen/see_through_darkness

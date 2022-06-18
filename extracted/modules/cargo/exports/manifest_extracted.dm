@@ -1,0 +1,11 @@
+/datum/export/manifest_correct
+/datum/export/manifest_correct/applies_to(obj/O)
+/datum/export/manifest_error_denied
+/datum/export/manifest_error_denied/applies_to(obj/O)
+/datum/export/manifest_error_denied/get_cost(obj/O)
+/datum/export/manifest_error
+/datum/export/manifest_error/applies_to(obj/O)
+/datum/export/manifest_error/get_cost(obj/O)
+/datum/export/manifest_correct_denied
+/datum/export/manifest_correct_denied/applies_to(obj/O)
+/datum/export/manifest_correct_denied/get_cost(obj/O)

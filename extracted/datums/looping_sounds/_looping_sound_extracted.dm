@@ -1,0 +1,13 @@
+/datum/looping_sound
+/datum/looping_sound/New(_parent, start_immediately=FALSE, _direct=FALSE, _skip_starting_sounds = FALSE)
+/datum/looping_sound/Destroy()
+/datum/looping_sound/proc/start(on_behalf_of)
+/datum/looping_sound/proc/stop(null_parent)
+/datum/looping_sound/proc/start_sound_loop()
+/datum/looping_sound/proc/sound_loop(starttime)
+/datum/looping_sound/proc/play(soundfile, volume_override)
+/datum/looping_sound/proc/get_sound(starttime, _mid_sounds)
+/datum/looping_sound/proc/on_start()
+/datum/looping_sound/proc/on_stop()
+/datum/looping_sound/proc/set_parent(new_parent)
+/datum/looping_sound/proc/handle_parent_del(datum/source)

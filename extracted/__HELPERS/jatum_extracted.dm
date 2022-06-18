@@ -1,0 +1,5 @@
+/datum/proc/jatum_new_arglist()
+/world/proc/jatum_serialize(value)
+/world/proc/_jatum_serialize_value(value, list/seen_references)
+/world/proc/jatum_deserialize(json)
+/world/proc/_jatum_deserialize_value(list/structure, list/active_references)

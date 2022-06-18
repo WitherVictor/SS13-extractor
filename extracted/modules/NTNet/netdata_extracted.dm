@@ -1,0 +1,20 @@
+/datum/netlink
+/datum/netlink/New(datum/component/ntnet_interface/conn, port)
+/datum/netlink/proc/_server_disconnected(datum/component/com)
+/datum/netlink/Destroy()
+/datum/netlink/proc/get(idx)
+/datum/netlink/proc/put(idx, V)
+/datum/netlink/proc/is_dirty()
+/datum/netlink/proc/clean()
+/datum/netlink/proc/is_connected()
+/datum/netdata
+/datum/netdata/New(list/data = null)
+/datum/netdata/Destroy()
+/datum/netdata/proc/clone(deep_copy=FALSE)
+/datum/netdata/proc/json_to_data(json)
+/datum/netdata/proc/json_append_to_data(json)
+/datum/netdata/proc/data_to_json()
+/datum/netdata/proc/json_list_generation_admin() //for admin logs and such.
+/datum/netdata/proc/json_list_generation()
+/datum/netdata/proc/json_list_generation_netlog()
+/datum/netdata/proc/generate_netlog()

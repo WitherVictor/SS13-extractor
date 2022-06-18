@@ -1,0 +1,11 @@
+/proc/get_angle(atom/movable/start, atom/movable/end)//For beams.
+/proc/get_pixel_angle(y, x)
+/proc/get_line(atom/starting_atom, atom/ending_atom)
+/proc/display_power(powerused)
+/proc/display_joules(units)
+/proc/joules_to_energy(joules)
+/proc/energy_to_joules(energy_units)
+/proc/display_energy(units)
+/proc/anyprob(value)
+/proc/bit_count(bit_field)
+/proc/make_tuple(number)

@@ -1,0 +1,86 @@
+/obj/docking_port
+/obj/docking_port/proc/register()
+/obj/docking_port/proc/unregister()
+/obj/docking_port/proc/Check_id()
+/obj/docking_port/Destroy(force)
+/obj/docking_port/has_gravity(turf/T)
+/obj/docking_port/take_damage()
+/obj/docking_port/singularity_pull()
+/obj/docking_port/singularity_act()
+/obj/docking_port/shuttleRotate()
+/obj/docking_port/proc/return_coords(_x, _y, _dir)
+/obj/docking_port/proc/return_turfs()
+/obj/docking_port/proc/return_ordered_turfs(_x, _y, _z, _dir)
+/obj/docking_port/proc/highlight(_color = "#f00")
+/obj/docking_port/proc/get_docked()
+/obj/docking_port/proc/getDockedId()
+/obj/docking_port/proc/is_in_shuttle_bounds(atom/A)
+/obj/docking_port/stationary
+	name = "dock"
+/obj/docking_port/stationary/register(replace = FALSE)
+	name = "dock"
+	name = "[name] [counter]"
+/obj/docking_port/stationary/Initialize(mapload)
+/obj/docking_port/stationary/unregister()
+/obj/docking_port/stationary/Destroy(force)
+/obj/docking_port/stationary/Moved(atom/oldloc, dir, forced)
+/obj/docking_port/stationary/proc/load_roundstart()
+/obj/docking_port/stationary/get_docked()
+/obj/docking_port/stationary/transit
+	name = "In Transit"
+/obj/docking_port/stationary/transit/Initialize(mapload)
+/obj/docking_port/stationary/transit/Destroy(force=FALSE)
+/obj/docking_port/stationary/picked
+/obj/docking_port/stationary/picked/Initialize(mapload)
+/obj/docking_port/stationary/picked/whiteship
+	name = "Deep Space"
+/obj/docking_port/mobile
+	name = "shuttle"
+/obj/docking_port/mobile/register(replace = FALSE)
+	name = "shuttle"
+	name = "[name] [counter]"
+/obj/docking_port/mobile/unregister()
+/obj/docking_port/mobile/Destroy(force)
+/obj/docking_port/mobile/Initialize(mapload)
+	name = "shuttle"
+	name = "[tmp_name] [counter]"
+/obj/docking_port/mobile/proc/linkup(obj/docking_port/stationary/dock)
+/obj/docking_port/mobile/proc/canMove()
+/obj/docking_port/mobile/proc/canDock(obj/docking_port/stationary/S)
+/obj/docking_port/mobile/proc/check_dock(obj/docking_port/stationary/S, silent=FALSE)
+/obj/docking_port/mobile/proc/transit_failure()
+/obj/docking_port/mobile/proc/request(obj/docking_port/stationary/S)
+/obj/docking_port/mobile/proc/cancel()
+/obj/docking_port/mobile/proc/enterTransit()
+/obj/docking_port/mobile/proc/jumpToNullSpace()
+/obj/docking_port/mobile/proc/intoTheSunset()
+/obj/docking_port/mobile/proc/create_ripples(obj/docking_port/stationary/S1, animate_time)
+/obj/docking_port/mobile/proc/remove_ripples()
+/obj/docking_port/mobile/proc/ripple_area(obj/docking_port/stationary/S1)
+/obj/docking_port/mobile/proc/check_poddoors()
+/obj/docking_port/mobile/proc/dock_id(id)
+/obj/docking_port/mobile/proc/check()
+/obj/docking_port/mobile/proc/check_effects()
+/obj/docking_port/mobile/proc/parallax_slowdown()
+/obj/docking_port/mobile/proc/check_transit_zone()
+/obj/docking_port/mobile/proc/setTimer(wait)
+/obj/docking_port/mobile/proc/modTimer(multiple)
+/obj/docking_port/mobile/proc/invertTimer()
+/obj/docking_port/mobile/proc/timeLeft(divisor)
+/obj/docking_port/mobile/proc/getModeStr()
+/obj/docking_port/mobile/proc/getTimerStr()
+/obj/docking_port/mobile/proc/get_status_text_tgui()
+/obj/docking_port/mobile/proc/getStatusText()
+/obj/docking_port/mobile/proc/getDbgStatusText()
+/obj/docking_port/mobile/proc/getControlConsole()
+/obj/docking_port/mobile/proc/hyperspace_sound(phase, list/areas)
+/obj/docking_port/mobile/proc/alter_engines(mod)
+/obj/docking_port/mobile/proc/count_engines()
+/obj/docking_port/mobile/proc/get_engine_coeff(current,engine_mod)
+/obj/docking_port/mobile/proc/in_flight()
+/obj/docking_port/mobile/emergency/in_flight()
+/obj/docking_port/mobile/proc/on_emergency_launch()
+/obj/docking_port/mobile/emergency/on_emergency_launch()
+/obj/docking_port/mobile/proc/on_emergency_dock()
+/obj/docking_port/mobile/pod/on_emergency_dock()
+/obj/docking_port/mobile/emergency/on_emergency_dock()

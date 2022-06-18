@@ -1,0 +1,11 @@
+	name = "Atoms"
+/datum/controller/subsystem/atoms/Initialize(timeofday)
+/datum/controller/subsystem/atoms/proc/InitializeAtoms(list/atoms, list/atoms_to_return = null)
+/datum/controller/subsystem/atoms/proc/InitAtom(atom/A, from_template = FALSE, list/arguments)
+/datum/controller/subsystem/atoms/proc/map_loader_begin()
+/datum/controller/subsystem/atoms/proc/map_loader_stop()
+/datum/controller/subsystem/atoms/Recover()
+/datum/controller/subsystem/atoms/proc/setupGenetics()
+/datum/controller/subsystem/atoms/proc/InitLog()
+/datum/controller/subsystem/atoms/proc/prepare_deletion(atom/target)
+/datum/controller/subsystem/atoms/Shutdown()

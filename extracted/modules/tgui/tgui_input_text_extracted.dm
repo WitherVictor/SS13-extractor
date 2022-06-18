@@ -1,0 +1,18 @@
+/proc/tgui_input_text(mob/user, message = null, title = "Text Input", default = null, max_length = MAX_MESSAGE_LEN, multiline = FALSE, encode = TRUE, timeout = 0)
+/proc/tgui_input_text_async(mob/user, message = null, title = "Text Input", default = null, max_length = null, multiline = FALSE, encode = TRUE, datum/callback/callback, timeout = 60 SECONDS)
+/datum/tgui_input_text
+/datum/tgui_input_text/New(mob/user, message, title, default, max_length, multiline, encode, timeout)
+/datum/tgui_input_text/Destroy(force, ...)
+/datum/tgui_input_text/proc/wait()
+/datum/tgui_input_text/ui_interact(mob/user, datum/tgui/ui)
+/datum/tgui_input_text/ui_close(mob/user)
+/datum/tgui_input_text/ui_state(mob/user)
+/datum/tgui_input_text/ui_static_data(mob/user)
+/datum/tgui_input_text/ui_data(mob/user)
+/datum/tgui_input_text/ui_act(action, list/params)
+/datum/tgui_input_text/proc/set_entry(entry)
+/datum/tgui_input_text/async
+/datum/tgui_input_text/async/New(mob/user, message, title, default, max_length, multiline, encode, callback, timeout)
+/datum/tgui_input_text/async/Destroy(force, ...)
+/datum/tgui_input_text/async/set_entry(entry)
+/datum/tgui_input_text/async/wait()

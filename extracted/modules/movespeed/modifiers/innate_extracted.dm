@@ -1,0 +1,4 @@
+/datum/movespeed_modifier/strained_muscles
+/datum/movespeed_modifier/pai_spacewalk
+/datum/movespeed_modifier/species
+/datum/movespeed_modifier/dna_vault_speedup

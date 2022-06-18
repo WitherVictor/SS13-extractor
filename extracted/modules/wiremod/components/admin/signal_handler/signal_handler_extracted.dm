@@ -1,0 +1,16 @@
+/obj/item/circuit_component/signal_handler
+	desc = "A component that listens for signals on an object."
+/obj/item/circuit_component/signal_handler/populate_options()
+/obj/item/circuit_component/signal_handler/populate_ports()
+/obj/item/circuit_component/signal_handler/proc/add_source_entity()
+/obj/item/circuit_component/signal_handler/save_data_to_list(list/component_data)
+/obj/item/circuit_component/signal_handler/load_data_from_list(list/component_data)
+/obj/item/circuit_component/signal_handler/pre_input_received(datum/port/input/port)
+/obj/item/circuit_component/signal_handler/proc/set_signal_options(datum/port/input/port)
+/obj/item/circuit_component/signal_handler/proc/register_signals(datum/port/input/port)
+/obj/item/circuit_component/signal_handler/proc/load_new_ports(list/ports_to_load)
+/obj/item/circuit_component/signal_handler/proc/unregister_signals_all(datum/port/input/port)
+/obj/item/circuit_component/signal_handler/proc/unregister_signals(datum/port/input/port)
+/obj/item/circuit_component/signal_handler/proc/run_ports_on_args(list/arguments)
+/obj/item/circuit_component/signal_handler/proc/handle_signal_received(...)
+/obj/item/circuit_component/signal_handler/proc/handle_bitflag_received(datum/port/input/port, list/return_values)

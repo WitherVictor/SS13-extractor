@@ -1,0 +1,6 @@
+/client/proc/play_sound(S as sound)
+/client/proc/play_local_sound(S as sound)
+/client/proc/play_direct_mob_sound(S as sound, mob/M)
+/client/proc/play_web_sound()
+/client/proc/set_round_end_sound(S as sound)
+/client/proc/stop_sounds()

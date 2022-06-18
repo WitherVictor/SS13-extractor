@@ -1,0 +1,12 @@
+/datum/component/fantasy
+/datum/component/fantasy/Initialize(quality, list/affixes = list(), canFail=FALSE, announce=FALSE)
+/datum/component/fantasy/Destroy()
+/datum/component/fantasy/RegisterWithParent()
+/datum/component/fantasy/UnregisterFromParent()
+/datum/component/fantasy/InheritComponent(datum/component/fantasy/newComp, original, quality, list/affixes, canFail, announce)
+/datum/component/fantasy/proc/randomQuality()
+/datum/component/fantasy/proc/randomAffixes(force)
+/datum/component/fantasy/proc/setAffixes(force)
+/datum/component/fantasy/proc/modify()
+/datum/component/fantasy/proc/unmodify()
+/datum/component/fantasy/proc/announce()

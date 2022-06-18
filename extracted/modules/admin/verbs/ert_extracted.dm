@@ -1,0 +1,5 @@
+/datum/admins/proc/makeERTTemplateModified(list/settings)
+/datum/admins/proc/equipAntagOnDummy(mob/living/carbon/human/dummy/mannequin, datum/antagonist/antag)
+/datum/admins/proc/makeERTPreviewIcon(list/settings)
+/datum/admins/proc/makeEmergencyresponseteam(datum/ert/ertemplate = null)
+/client/proc/summon_ert()

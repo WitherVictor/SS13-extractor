@@ -1,0 +1,17 @@
+/turf/open/floor/proc/MakeDirty()
+/area/mine/production,
+/area/mine/living_quarters,
+/area/commons/vacant_room/office,
+/area/ruin/space))
+/area/command/heads_quarters/ce,
+/area/science/robotics,
+/area/maintenance,
+/area/construction,
+/area/commons/vacant_room/commissary,
+/area/survivalpod))
+/area/awaymission/research/interior/bathroom))
+/area/security,
+/area/command/heads_quarters/hos))
+/area/service/cafeteria))
+/area/command/heads_quarters/cmo))
+/area/command/heads_quarters/rd))

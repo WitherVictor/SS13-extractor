@@ -1,0 +1,12 @@
+/mob/living/simple_animal/hostile/guardian/dextrous
+/mob/living/simple_animal/hostile/guardian/dextrous/death(gibbed)
+/mob/living/simple_animal/hostile/guardian/dextrous/examine(mob/user)
+/mob/living/simple_animal/hostile/guardian/dextrous/Recall(forced)
+/mob/living/simple_animal/hostile/guardian/dextrous/snapback()
+/mob/living/simple_animal/hostile/guardian/dextrous/doUnEquip(obj/item/I, force, newloc, no_move, invdrop = TRUE, silent = FALSE)
+/mob/living/simple_animal/hostile/guardian/dextrous/can_equip(obj/item/I, slot, disable_warning = FALSE, bypass_equip_delay_self = FALSE)
+/mob/living/simple_animal/hostile/guardian/dextrous/equip_to_slot(obj/item/I, slot)
+/mob/living/simple_animal/hostile/guardian/dextrous/getBackSlot()
+/mob/living/simple_animal/hostile/guardian/dextrous/getBeltSlot()
+/mob/living/simple_animal/hostile/guardian/dextrous/proc/update_inv_internal_storage()
+/mob/living/simple_animal/hostile/guardian/dextrous/regenerate_icons()

@@ -1,0 +1,17 @@
+/datum/antagonist/malf_ai
+	name = "Malfunctioning AI"
+/datum/antagonist/malf_ai/New(give_objectives = TRUE)
+/datum/antagonist/malf_ai/on_gain()
+/datum/antagonist/malf_ai/on_removal()
+/datum/antagonist/malf_ai/proc/forge_ai_objectives()
+/datum/antagonist/malf_ai/proc/forge_special_objective()
+/datum/antagonist/malf_ai/greet()
+/datum/antagonist/malf_ai/apply_innate_effects(mob/living/mob_override)
+/datum/antagonist/malf_ai/remove_innate_effects(mob/living/mob_override)
+/datum/antagonist/malf_ai/proc/give_codewords()
+/datum/antagonist/malf_ai/proc/add_law_zero()
+/datum/antagonist/malf_ai/ui_data(mob/living/silicon/ai/malf_ai)
+/datum/antagonist/malf_ai/ui_static_data(mob/living/silicon/ai/malf_ai)
+/datum/antagonist/malf_ai/ui_act(action, list/params)
+/datum/antagonist/malf_ai/roundend_report()
+/datum/antagonist/malf_ai/get_preview_icon()

@@ -1,0 +1,3 @@
+/proc/radiation_pulse(
+/datum/radiation_pulse_information
+/proc/get_perceived_radiation_danger(datum/radiation_pulse_information/pulse_information, insulation_to_target)

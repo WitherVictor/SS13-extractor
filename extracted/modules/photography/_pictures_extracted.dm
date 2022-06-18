@@ -1,0 +1,11 @@
+/datum/picture
+/datum/picture/New(name, desc, mobs_spotted, dead_spotted, image, icon, size_x, size_y, bp, caption_, autogenerate_icon, can_see_ghosts)
+/datum/picture/proc/get_small_icon(iconstate)
+/datum/picture/proc/regenerate_small_icon(iconstate)
+/datum/picture/serialize_list(list/options)
+/datum/picture/deserialize_list(list/input, list/options)
+/proc/load_photo_from_disk(id, location)
+/proc/load_picture_from_disk(id)
+/proc/log_path_from_picture_ID(id)
+/datum/picture/proc/log_to_file()
+/datum/picture/proc/Copy(greyscale = FALSE, cropx = 0, cropy = 0)

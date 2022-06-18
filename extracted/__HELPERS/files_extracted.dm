@@ -1,0 +1,7 @@
+/client/proc/browse_files(root_type=BROWSE_ROOT_ALL_LOGS, max_iterations=10, list/valid_extensions=list("txt","log","htm", "html"))
+/client/proc/file_spam_check()
+/proc/pathwalk(path)
+/proc/pathflatten(path)
+/proc/md5filepath(path)
+/proc/md5asfile(file)
+/proc/sanitize_filepath(path)

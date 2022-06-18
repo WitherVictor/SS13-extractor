@@ -1,0 +1,15 @@
+/datum/component/customizable_reagent_holder
+/datum/component/customizable_reagent_holder/Initialize(
+/datum/component/customizable_reagent_holder/Destroy(force, silent)
+/datum/component/customizable_reagent_holder/RegisterWithParent()
+/datum/component/customizable_reagent_holder/UnregisterFromParent()
+/datum/component/customizable_reagent_holder/PostTransfer()
+/datum/component/customizable_reagent_holder/proc/on_examine(atom/A, mob/user, list/examine_list)
+/datum/component/customizable_reagent_holder/proc/customizable_attack(datum/source, obj/ingredient, mob/attacker, silent = FALSE, force = FALSE)
+/datum/component/customizable_reagent_holder/proc/handle_fill(obj/item/ingredient)
+/datum/component/customizable_reagent_holder/proc/handle_reagents(obj/item/ingredient)
+/datum/component/customizable_reagent_holder/proc/add_ingredient(obj/item/ingredient)
+/datum/component/customizable_reagent_holder/proc/custom_adjective()
+/datum/component/customizable_reagent_holder/proc/custom_type()
+/datum/component/customizable_reagent_holder/proc/mix_color(color)
+/datum/component/customizable_reagent_holder/proc/on_processed(datum/source, mob/living/user, obj/item/ingredient, list/atom/results)

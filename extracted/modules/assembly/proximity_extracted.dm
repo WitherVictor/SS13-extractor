@@ -1,0 +1,20 @@
+/obj/item/assembly/prox_sensor
+	name = "proximity sensor"
+	desc = "Used for scanning and alerting when someone enters a certain proximity."
+/obj/item/assembly/prox_sensor/Initialize(mapload)
+/obj/item/assembly/prox_sensor/Destroy()
+/obj/item/assembly/prox_sensor/examine(mob/user)
+/obj/item/assembly/prox_sensor/activate()
+/obj/item/assembly/prox_sensor/on_detach()
+/obj/item/assembly/prox_sensor/toggle_secure()
+/obj/item/assembly/prox_sensor/HasProximity(atom/movable/AM as mob|obj)
+/obj/item/assembly/prox_sensor/proc/sense()
+/obj/item/assembly/prox_sensor/process(delta_time)
+/obj/item/assembly/prox_sensor/proc/toggle_scan(scan)
+/obj/item/assembly/prox_sensor/proc/sensitivity_change(value)
+/obj/item/assembly/prox_sensor/update_appearance()
+/obj/item/assembly/prox_sensor/update_overlays()
+/obj/item/assembly/prox_sensor/ui_status(mob/user)
+/obj/item/assembly/prox_sensor/ui_interact(mob/user, datum/tgui/ui)
+/obj/item/assembly/prox_sensor/ui_data(mob/user)
+/obj/item/assembly/prox_sensor/ui_act(action, params)

@@ -1,0 +1,30 @@
+/mob/living/silicon
+/mob/living/silicon/Initialize(mapload)
+/mob/living/silicon/Destroy()
+/mob/living/silicon/med_hud_set_health()
+/mob/living/silicon/med_hud_set_status()
+/mob/living/silicon/contents_explosion(severity, target)
+/mob/living/silicon/proc/queueAlarm(message, type, incoming = FALSE)
+/mob/living/silicon/proc/show_alarms()
+/mob/living/silicon/can_inject(mob/user, target_zone, injection_flags)
+/mob/living/silicon/try_inject(mob/user, target_zone, injection_flags)
+/proc/islinked(mob/living/silicon/robot/bot, mob/living/silicon/ai/ai)
+/mob/living/silicon/Topic(href, href_list)
+/mob/living/silicon/proc/statelaws(force = 0)
+/mob/living/silicon/proc/checklaws() //Gives you a link-driven interface for deciding what laws the statelaws() proc will share with the crew. --NeoFite
+/mob/living/silicon/proc/ai_roster()
+/mob/living/silicon/proc/set_autosay() //For allowing the AI and borgs to set the radio behavior of auto announcements (state laws, arrivals).
+/mob/living/silicon/put_in_hand_check() // This check is for borgs being able to receive items, not put them in others' hands.
+/mob/living/silicon/assess_threat(judgement_criteria, lasercolor = "", datum/callback/weaponcheck=null) //Secbots won't hunt silicon units
+/mob/living/silicon/proc/remove_sensors()
+/mob/living/silicon/proc/add_sensors()
+/mob/living/silicon/proc/toggle_sensors()
+/mob/living/silicon/proc/GetPhoto(mob/user)
+/mob/living/silicon/is_literate()
+/mob/living/silicon/get_inactive_held_item()
+/mob/living/silicon/handle_high_gravity(gravity, delta_time, times_fired)
+/mob/living/silicon/rust_heretic_act()
+/mob/living/silicon/on_floored_start()
+/mob/living/silicon/on_floored_end()
+/mob/living/silicon/on_lying_down()
+/mob/living/silicon/on_standing_up()

@@ -1,0 +1,12 @@
+/datum/component/shy_in_room
+/datum/component/shy_in_room/Initialize(blacklist, message)
+/datum/component/shy_in_room/RegisterWithParent()
+/datum/component/shy_in_room/UnregisterFromParent()
+/datum/component/shy_in_room/PostTransfer()
+/datum/component/shy_in_room/InheritComponent(datum/component/shy_in_room/friend, i_am_original, list/arguments)
+/datum/component/shy_in_room/proc/is_shy(atom/target)
+/datum/component/shy_in_room/proc/on_clickon(datum/source, atom/target, list/modifiers)
+/datum/component/shy_in_room/proc/on_try_pull(datum/source, atom/movable/target, force)
+/datum/component/shy_in_room/proc/on_unarmed_attack(datum/source, atom/target, proximity, modifiers)
+/datum/component/shy_in_room/proc/on_try_strip(datum/source, atom/target, obj/item/equipping)
+/datum/component/shy_in_room/proc/on_try_alt_action(datum/source, atom/target)

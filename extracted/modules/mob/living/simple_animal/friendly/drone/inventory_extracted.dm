@@ -1,0 +1,6 @@
+/mob/living/simple_animal/drone/doUnEquip(obj/item/I, force, newloc, no_move, invdrop = TRUE, silent = FALSE)
+/mob/living/simple_animal/drone/can_equip(obj/item/I, slot, disable_warning = FALSE, bypass_equip_delay_self = FALSE)
+/mob/living/simple_animal/drone/get_item_by_slot(slot_id)
+/mob/living/simple_animal/drone/equip_to_slot(obj/item/I, slot)
+/mob/living/simple_animal/drone/getBackSlot()
+/mob/living/simple_animal/drone/getBeltSlot()

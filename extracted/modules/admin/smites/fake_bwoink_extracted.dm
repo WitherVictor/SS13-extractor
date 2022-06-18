@@ -1,0 +1,3 @@
+/datum/smite/fake_bwoink
+	name = "Fake bwoink"
+/datum/smite/fake_bwoink/effect(client/user, mob/living/target)

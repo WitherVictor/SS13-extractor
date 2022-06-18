@@ -1,0 +1,36 @@
+/datum/export/large/crate
+/datum/export/large/crate/total_printout(datum/export_report/ex, notes = TRUE) // That's why a goddamn metal crate costs that much.
+/datum/export/large/crate/wooden
+/datum/export/large/crate/wooden/ore
+/datum/export/large/crate/wood
+/datum/export/large/crate/coffin
+/datum/export/large/reagent_dispenser
+/datum/export/large/reagent_dispenser/get_cost(obj/O)
+/datum/export/large/reagent_dispenser/water
+/datum/export/large/reagent_dispenser/fuel
+/datum/export/large/reagent_dispenser/beer
+/datum/export/large/pipedispenser
+/datum/export/large/emitter
+/datum/export/large/field_generator
+/datum/export/large/tesla_coil
+/datum/export/large/supermatter
+/datum/export/large/grounding_rod
+/datum/export/large/iv
+/datum/export/large/barrier
+/datum/export/large/gas_canister
+/datum/export/large/gas_canister/get_cost(obj/O)
+/datum/gas/bz,
+/datum/gas/nitrium,
+/datum/gas/hypernoblium,
+/datum/gas/miasma,
+/datum/gas/tritium,
+/datum/gas/pluoxium,
+/datum/gas/freon,
+/datum/gas/hydrogen,
+/datum/gas/healium,
+/datum/gas/proto_nitrate,
+/datum/gas/zauker,
+/datum/gas/helium,
+/datum/gas/antinoblium,
+/datum/gas/halon,
+/datum/export/large/gas_canister/proc/get_gas_value(datum/gas/gasType, moles)

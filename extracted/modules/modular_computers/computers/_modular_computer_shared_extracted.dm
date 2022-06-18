@@ -1,0 +1,7 @@
+/obj/proc/is_modular_computer()
+/obj/proc/get_modular_computer_part(part_type)
+/obj/item/modular_computer/is_modular_computer()
+/obj/item/modular_computer/get_modular_computer_part(part_type)
+/obj/machinery/modular_computer/is_modular_computer()
+/obj/machinery/modular_computer/get_modular_computer_part(part_type)
+/obj/proc/get_modular_computer_parts_examine(mob/user)

@@ -1,0 +1,20 @@
+/obj/machinery/fat_sucker
+	name = "lipid extractor"
+	desc = "Safely and efficiently extracts excess fat from a subject."
+/obj/machinery/fat_sucker/Initialize(mapload)
+/obj/machinery/fat_sucker/Destroy()
+/obj/machinery/fat_sucker/RefreshParts()
+/obj/machinery/fat_sucker/examine(mob/user)
+/obj/machinery/fat_sucker/close_machine(mob/user)
+/obj/machinery/fat_sucker/open_machine(mob/user)
+/obj/machinery/fat_sucker/container_resist_act(mob/living/user)
+/obj/machinery/fat_sucker/interact(mob/user)
+/obj/machinery/fat_sucker/AltClick(mob/living/user)
+/obj/machinery/fat_sucker/update_overlays()
+/obj/machinery/fat_sucker/process(delta_time)
+/obj/machinery/fat_sucker/proc/start_extracting()
+/obj/machinery/fat_sucker/proc/stop()
+/obj/machinery/fat_sucker/proc/make_meat()
+/obj/machinery/fat_sucker/screwdriver_act(mob/living/user, obj/item/I)
+/obj/machinery/fat_sucker/crowbar_act(mob/living/user, obj/item/I)
+/obj/machinery/fat_sucker/emag_act(mob/living/user)

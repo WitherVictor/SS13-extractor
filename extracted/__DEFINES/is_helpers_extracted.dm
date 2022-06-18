@@ -1,0 +1,14 @@
+/turf/open/space,
+/turf/open/chasm,
+/turf/open/lava,
+/turf/open/water,
+/turf/open/openspace
+/obj/item/stack/sheet/glass,
+/obj/item/stack/sheet/rglass,
+/obj/item/stack/sheet/plasmaglass,
+/obj/item/stack/sheet/plasmarglass,
+/obj/item/stack/sheet/titaniumglass,
+/obj/item/stack/sheet/plastitaniumglass)))
+/obj/item/book,
+/obj/item/spellbook,
+/obj/item/storage/book)))

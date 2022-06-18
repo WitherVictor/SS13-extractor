@@ -1,0 +1,22 @@
+/obj/machinery/computer/pandemic
+	name = "PanD.E.M.I.C 2200"
+	desc = "Used to work with viruses."
+/obj/machinery/computer/pandemic/Initialize(mapload)
+/obj/machinery/computer/pandemic/Destroy()
+/obj/machinery/computer/pandemic/examine(mob/user)
+/obj/machinery/computer/pandemic/AltClick(mob/user)
+/obj/machinery/computer/pandemic/handle_atom_del(atom/A)
+/obj/machinery/computer/pandemic/proc/get_by_index(thing, index)
+/obj/machinery/computer/pandemic/proc/get_virus_id_by_index(index)
+/obj/machinery/computer/pandemic/proc/get_viruses_data(datum/reagent/blood/B)
+/obj/machinery/computer/pandemic/proc/get_symptom_data(datum/symptom/S)
+/obj/machinery/computer/pandemic/proc/get_resistance_data(datum/reagent/blood/B)
+/obj/machinery/computer/pandemic/proc/reset_replicator_cooldown()
+/obj/machinery/computer/pandemic/update_icon_state()
+/obj/machinery/computer/pandemic/update_overlays()
+/obj/machinery/computer/pandemic/proc/eject_beaker()
+/obj/machinery/computer/pandemic/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/computer/pandemic/ui_data(mob/user)
+/obj/machinery/computer/pandemic/ui_act(action, params)
+/obj/machinery/computer/pandemic/attackby(obj/item/I, mob/user, params)
+/obj/machinery/computer/pandemic/on_deconstruction()

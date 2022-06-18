@@ -1,0 +1,27 @@
+/obj/machinery/computer/holodeck
+	name = "holodeck control console"
+	desc = "A computer used to control a nearby holodeck."
+/obj/machinery/computer/holodeck/Initialize(mapload)
+/obj/machinery/computer/holodeck/LateInitialize()//from here linked is populated and the program list is generated. its also set to load the offline program
+/obj/machinery/computer/holodeck/proc/generate_program_list()
+/obj/machinery/computer/holodeck/ui_interact(mob/user, datum/tgui/ui)
+/obj/machinery/computer/holodeck/ui_data(mob/user)
+/obj/machinery/computer/holodeck/ui_act(action, params)
+/datum/map_template/holodeck/update_blacklist(turf/placement, list/input_blacklist)
+/obj/machinery/computer/holodeck/proc/load_program(map_id, force = FALSE, add_delay = TRUE)
+/obj/machinery/computer/holodeck/proc/reset_to_default()
+/obj/machinery/computer/holodeck/proc/clear_projection()
+/obj/machinery/computer/holodeck/proc/finish_spawn()
+/obj/machinery/computer/holodeck/proc/derez(atom/movable/holo_atom, silent = TRUE, forced = FALSE)
+/obj/machinery/computer/holodeck/proc/remove_from_holo_lists(datum/to_remove, _forced)
+/obj/machinery/computer/holodeck/process(delta_time)
+/obj/machinery/computer/holodeck/proc/toggle_power(toggleOn = FALSE)
+/obj/machinery/computer/holodeck/power_change()
+/obj/machinery/computer/holodeck/proc/emergency_shutdown()
+/obj/machinery/computer/holodeck/proc/floorcheck()
+/obj/machinery/computer/holodeck/proc/nerf(nerf_this, is_loading = TRUE)
+/obj/machinery/computer/holodeck/emag_act(mob/user)
+/obj/machinery/computer/holodeck/emp_act(severity)
+/obj/machinery/computer/holodeck/ex_act(severity, target)
+/obj/machinery/computer/holodeck/Destroy()
+/obj/machinery/computer/holodeck/blob_act(obj/structure/blob/B)

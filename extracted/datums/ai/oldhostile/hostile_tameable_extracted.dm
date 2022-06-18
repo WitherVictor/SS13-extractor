@@ -1,0 +1,18 @@
+/datum/ai_controller/hostile_friend
+/datum/ai_controller/hostile_friend/process(delta_time)
+/datum/ai_controller/hostile_friend/TryPossessPawn(atom/new_pawn)
+/datum/ai_controller/hostile_friend/UnpossessPawn(destroy)
+/datum/ai_controller/hostile_friend/proc/on_prebuckle(mob/source, mob/living/buckler, force, buckle_mob_flags)
+/datum/ai_controller/hostile_friend/able_to_run()
+/datum/ai_controller/hostile_friend/get_access()
+/datum/ai_controller/hostile_friend/proc/on_ridden_driver_move(atom/movable/movable_parent, mob/living/user, direction)
+/datum/ai_controller/hostile_friend/proc/befriend(mob/living/new_friend)
+/datum/ai_controller/hostile_friend/proc/unfriend()
+/datum/ai_controller/hostile_friend/proc/on_examined(datum/source, mob/user, list/examine_text)
+/datum/ai_controller/hostile_friend/proc/check_altclicked(datum/source, mob/living/clicker)
+/datum/ai_controller/hostile_friend/proc/command_radial(mob/living/clicker)
+/datum/ai_controller/hostile_friend/proc/check_menu(mob/user)
+/datum/ai_controller/hostile_friend/proc/check_verbal_command(mob/speaker, speech_args)
+/datum/ai_controller/hostile_friend/proc/set_command_mode(mob/commander, command)
+/datum/ai_controller/hostile_friend/proc/check_point(mob/pointing_friend, atom/movable/pointed_movable)
+/datum/idle_behavior/idle_random_walk/hostile_tameable

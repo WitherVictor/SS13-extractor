@@ -1,0 +1,14 @@
+/datum/movespeed_modifier/reagent
+/datum/movespeed_modifier/reagent/stimulants
+/datum/movespeed_modifier/reagent/ephedrine
+/datum/movespeed_modifier/reagent/pepperspray
+/datum/movespeed_modifier/reagent/monkey_energy
+/datum/movespeed_modifier/reagent/changelinghaste
+/datum/movespeed_modifier/reagent/methamphetamine
+/datum/movespeed_modifier/reagent/nitrium
+/datum/movespeed_modifier/reagent/cannabis
+/datum/movespeed_modifier/reagent/freon
+/datum/movespeed_modifier/reagent/halon
+/datum/movespeed_modifier/reagent/lenturi
+/datum/movespeed_modifier/reagent/nuka_cola
+/datum/movespeed_modifier/reagent/nooartrium

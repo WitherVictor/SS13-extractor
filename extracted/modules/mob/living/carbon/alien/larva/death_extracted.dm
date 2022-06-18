@@ -1,0 +1,5 @@
+/mob/living/carbon/alien/larva/death(gibbed)
+/mob/living/carbon/alien/larva/spawn_gibs(with_bodyparts)
+/mob/living/carbon/alien/larva/gib_animation()
+/mob/living/carbon/alien/larva/spawn_dust()
+/mob/living/carbon/alien/larva/dust_animation()

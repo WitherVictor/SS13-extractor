@@ -1,0 +1,25 @@
+/obj/structure/transit_tube_pod
+/obj/structure/transit_tube_pod/Initialize(mapload)
+/obj/structure/transit_tube_pod/Destroy()
+/obj/structure/transit_tube_pod/update_icon_state()
+/obj/structure/transit_tube_pod/attackby(obj/item/I, mob/user, params)
+/obj/structure/transit_tube_pod/deconstruct(disassembled = TRUE, mob/user)
+/obj/structure/transit_tube_pod/ex_act(severity, target)
+/obj/structure/transit_tube_pod/contents_explosion(severity, target)
+/obj/structure/transit_tube_pod/singularity_pull(S, current_size)
+/obj/structure/transit_tube_pod/container_resist_act(mob/living/user)
+/obj/structure/transit_tube_pod/proc/empty_pod(atom/location)
+/obj/structure/transit_tube_pod/Process_Spacemove()
+/obj/structure/transit_tube_pod/proc/follow_tube()
+/obj/structure/transit_tube_pod/proc/move_animation(stage = MOVE_ANIMATION_STAGE_ONE)
+/obj/structure/transit_tube_pod/proc/outside_tube()
+/obj/structure/transit_tube_pod/return_air()
+/obj/structure/transit_tube_pod/return_analyzable_air()
+/obj/structure/transit_tube_pod/assume_air(datum/gas_mixture/giver)
+/obj/structure/transit_tube_pod/remove_air(amount)
+/obj/structure/transit_tube_pod/relaymove(mob/living/user, direction)
+/obj/structure/transit_tube_pod/return_temperature()
+/obj/structure/transit_tube_pod/dispensed
+	name = "temporary transit tube pod"
+	desc = "Hits the skrrrt (tube station), then hits the dirt (nonexistence). You know how it is."
+/obj/structure/transit_tube_pod/dispensed/outside_tube()
